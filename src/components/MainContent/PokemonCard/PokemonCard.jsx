@@ -9,15 +9,23 @@ import {
 } from "@material-ui/core"
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined"
 import React from "react"
-import img from "../../../assets/ivysaur.png"
+import PropTypes from "prop-types"
+import colorType from "../../../data/colorType.json"
 import useStyles from "./style"
 
-export default function PokemonCard({ firstType, secondType }) {
+function PokemonCard({ firstType, secondType }) {
   const classes = useStyles()
-
+  const firstTypeColor =
+    colorType[firstType ? firstType.toLowerCase() : "normal"]
+  const secondTypeColor =
+    colorType[secondType ? secondType.toLowerCase() : "normal"]
   return (
     <Card variant="outlined" className={classes.root}>
-      <CardMedia className={classes.image} image={img} title="pokemon" />
+      <CardMedia
+        className={classes.image}
+        image="img/assets/ivysaur.png"
+        title="pokemon"
+      />
       <CardContent className={classes.CardContent}>
         <Box display="flex" className={classes.title}>
           <Typography variant="body2" className={classes.pokemonNumber}>
@@ -28,17 +36,11 @@ export default function PokemonCard({ firstType, secondType }) {
           </Typography>
         </Box>
         <Box className={classes.type}>
-          <Box
-            className={classes.pokemonTypeOne}
-            bgColor={[firstType.toLowerCase()]}
-          >
-            {firstType.toLowerCase()}
+          <Box className={classes.pokemonTypeOne} bgColor={firstTypeColor}>
+            {firstType && firstType.toUpperCase()}
           </Box>
-          <Box
-            className={classes.pokemonTypeTwo}
-            bgColor={[secondType.toLowerCase()]}
-          >
-            {secondType}
+          <Box className={classes.pokemonTypeTwo} bgColor={secondTypeColor}>
+            {secondType && secondType.toUpperCase()}
           </Box>
         </Box>
       </CardContent>
@@ -54,3 +56,11 @@ export default function PokemonCard({ firstType, secondType }) {
     </Card>
   )
 }
+
+export default PokemonCard
+
+PokemonCard.propTypes = {
+  firstType: PropTypes.string.isRequired,
+  secondType: PropTypes.string.isRequired
+}
+

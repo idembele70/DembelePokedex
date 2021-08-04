@@ -1,12 +1,17 @@
 import { Grid, useMediaQuery, useTheme } from "@material-ui/core"
-import React from "react"
+import React, { useState, useEffect } from "react"
 import PokemonCard from "./PokemonCard/PokemonCard"
+import PokemonsList from "../../data/pokemons.json"
 import useStyles from "./style"
 
 function MainContent() {
   const classes = useStyles()
   const theme = useTheme()
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
+  const [pokemons, setPokemons] = useState([])
+  useEffect(() => {
+    if (PokemonsList.length) setPokemons(PokemonsList)
+  }, [pokemons])
   return (
     <Grid
       container
@@ -14,21 +19,11 @@ function MainContent() {
       className={classes.root}
       justifyContent="center"
     >
-      <Grid item>
-        <PokemonCard />
-      </Grid>
-      <Grid item>
-        <PokemonCard />
-      </Grid>
-      <Grid item>
-        <PokemonCard />
-      </Grid>
-      <Grid item>
-        <PokemonCard />
-      </Grid>
-      <Grid item>
-        <PokemonCard />
-      </Grid>
+      {pokemons.map(({ name, id, type }) => (
+        <Grid item key={`${name}${id}`}>
+          <PokemonCard firstType={type[0]} secondType={type[1]} />
+        </Grid>
+      ))}
     </Grid>
   )
 }
