@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core"
 
 export default makeStyles({
   title: {
@@ -9,18 +9,18 @@ export default makeStyles({
     borderRadius: "18px",
     fontWeight: "bold",
     color: "#000000",
-    boxShadow: "0px 4px 16px -3px rgba(0, 0, 0, 0.15)",
+    boxShadow: "0px 4px 16px -3px rgba(0, 0, 0, 0.15)"
   },
   pokedex: {
     maxWidth: 211,
     width: "45%",
     height: 34,
-    lineHeight: "34px",
+    lineHeight: "34px"
   },
   liked: {
     maxWidth: 171,
     width: "37%",
     height: 34,
-    lineHeight: "34px",
-  },
-});
+    lineHeight: "34px"
+  }
+})

@@ -1,6 +1,6 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core"
 
-export default makeStyles((theme) => ({
+export default makeStyles({
   root: {
     display: "flex",
     maxWidth: 307,
@@ -9,15 +9,15 @@ export default makeStyles((theme) => ({
     padding: "26px 37px 25px 27px",
     alignItems: "center",
     position: "relative",
-    borderRadius: 18,
+    borderRadius: 18
   },
   image: {
     height: 117,
-    width: 126,
+    width: 126
   },
   CardContent: {
     marginLeft: 32,
-    padding: 0,
+    padding: 0
   },
   title: {
     "& > *": {
@@ -25,15 +25,15 @@ export default makeStyles((theme) => ({
       fontStyle: "normal",
       fontWeight: 900,
       fontSize: 12,
-      letterSpacing: "0.04em",
-    },
+      letterSpacing: "0.04em"
+    }
   },
   pokemonNumber: {
     color: "#9E9E9E",
-    margin: "0 6.25px 0 0",
+    margin: "0 6.25px 0 0"
   },
   pokemonName: {
-    color: "#000000",
+    color: "#000000"
   },
   type: {
     "& > *": {
@@ -48,11 +48,11 @@ export default makeStyles((theme) => ({
       textAlign: "center",
       backgroundColor: "red",
       borderRadius: 18,
-      border: "1px",
-    },
+      border: "1px"
+    }
   },
   pokemonTypeOne: {
-    margin: "6px 0 3px 0",
+    margin: "6px 0 3px 0"
   },
   likeContainer: {
     position: "absolute",
@@ -66,10 +66,7 @@ export default makeStyles((theme) => ({
     "& > *": {
       padding: 0,
       width: "100%",
-      height: "100%",
-    },
-  },
-  fire : {
-    backgroundColor  :"red"
+      height: "100%"
+    }
   }
-}));
+})

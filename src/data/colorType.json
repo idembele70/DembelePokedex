@@ -1,20 +1,18 @@
-[
-  {
-    "normal": "#CACACA",
-    "electric": "#FFE175",
-    "grass": "#B4FE7B",
-    "poison": "#BF8CD1",
-    "bug": "#D1E16F",
-    "ghost": "#805594",
-    "fire": "#FF8A8A",
-    "water": "#88D1FB",
-    "ground": "#CA9F5E",
-    "rock": "#898373",
-    "ice": "#C6EAFF",
-    "fighting": "#C6EAFF",
-    "steel": "#E4E4E4",
-    "psychic": "#FFB7FC",
-    "flying": "#5F9FFF",
-    "dragon": "#C699FF"
-  }
-]
+{
+  "normal": "#CACACA",
+  "electric": "#FFE175",
+  "grass": "#B4FE7B",
+  "poison": "#BF8CD1",
+  "bug": "#D1E16F",
+  "ghost": "#805594",
+  "fire": "#FF8A8A",
+  "water": "#88D1FB",
+  "ground": "#CA9F5E",
+  "rock": "#898373",
+  "ice": "#C6EAFF",
+  "fighting": "#C6EAFF",
+  "steel": "#E4E4E4",
+  "psychic": "#FFB7FC",
+  "flying": "#5F9FFF",
+  "dragon": "#C699FF"
+}

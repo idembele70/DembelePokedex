@@ -15,10 +15,12 @@ import useStyles from "./style"
 
 function PokemonCard({ firstType, secondType }) {
   const classes = useStyles()
-  const firstTypeColor =
-    colorType[firstType ? firstType.toLowerCase() : "normal"]
-  const secondTypeColor =
-    colorType[secondType ? secondType.toLowerCase() : "normal"]
+  const firstTypeColor = firstType
+    ? colorType[firstType.toLowerCase()]
+    : colorType.normal
+  const secondTypeColor = secondType
+    ? colorType[secondType.toLowerCase()]
+    : colorType.normal
   return (
     <Card variant="outlined" className={classes.root}>
       <CardMedia
@@ -36,10 +38,16 @@ function PokemonCard({ firstType, secondType }) {
           </Typography>
         </Box>
         <Box className={classes.type}>
-          <Box className={classes.pokemonTypeOne} bgColor={firstTypeColor}>
+          <Box
+            style={{ backgroundColor: firstTypeColor }}
+            className={classes.pokemonTypeOne}
+          >
             {firstType && firstType.toUpperCase()}
           </Box>
-          <Box className={classes.pokemonTypeTwo} bgColor={secondTypeColor}>
+          <Box
+            className={classes.pokemonTypeTwo}
+            style={{ backgroundColor: secondTypeColor }}
+          >
             {secondType && secondType.toUpperCase()}
           </Box>
         </Box>
@@ -63,4 +71,3 @@ PokemonCard.propTypes = {
   firstType: PropTypes.string.isRequired,
   secondType: PropTypes.string.isRequired
 }
-
