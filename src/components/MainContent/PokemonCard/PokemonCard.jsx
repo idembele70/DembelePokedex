@@ -4,16 +4,20 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  Checkbox,
+  FormControlLabel,
+  Grid,
   IconButton,
   Typography
 } from "@material-ui/core"
-import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined"
-import React from "react"
+import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
+import React from "react"
 import colorType from "../../../data/colorType.json"
-import useStyles from "./style"
+import PokemonSkeleton from "../PokemonSkeleton/PokemonSkeleton"
+import useStyles from "./styles"
 
-function PokemonCard({ firstType, secondType }) {
+function PokemonCard({ id, name, firstType, secondType, image, loading }) {
   const classes = useStyles()
   const firstTypeColor = firstType
     ? colorType[firstType.toLowerCase()]
@@ -21,20 +25,30 @@ function PokemonCard({ firstType, secondType }) {
   const secondTypeColor = secondType
     ? colorType[secondType.toLowerCase()]
     : colorType.normal
-  return (
+  const onerror = (e) => {
+    e.target.onerror = null
+    e.target.src = "img/assets/404-group.png"
+  }
+  return loading ? (
+    <Grid item key={Math.random()} id="skeleton">
+      <PokemonSkeleton />
+    </Grid>
+  ) : (
     <Card variant="outlined" className={classes.root}>
       <CardMedia
         className={classes.image}
-        image="img/assets/ivysaur.png"
+        image={image}
         title="pokemon"
+        component="img"
+        onError={onerror}
       />
       <CardContent className={classes.CardContent}>
         <Box display="flex" className={classes.title}>
           <Typography variant="body2" className={classes.pokemonNumber}>
-            005
+            {id}
           </Typography>
           <Typography variant="body2" className={classes.pokemonName}>
-            IVYSAUR
+            {name}
           </Typography>
         </Box>
         <Box className={classes.type}>
@@ -55,9 +69,16 @@ function PokemonCard({ firstType, secondType }) {
 
       <CardActions className={classes.likeContainer}>
         <IconButton>
-          <ThumbUpAltOutlinedIcon
+          <FormControlLabel
             className={classes.likeBtn}
-            fontSize="small"
+            control={
+              <Checkbox
+                color="primary"
+                icon={<ThumbUpOutlined fontSize="small" />}
+                checkedIcon={<ThumbUp fontSize="small" />}
+                name={`likeBtn${id}`}
+              />
+            }
           />
         </IconButton>
       </CardActions>
@@ -65,9 +86,15 @@ function PokemonCard({ firstType, secondType }) {
   )
 }
 
-export default PokemonCard
-
 PokemonCard.propTypes = {
+  id: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   firstType: PropTypes.string.isRequired,
-  secondType: PropTypes.string.isRequired
+  secondType: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  loading: PropTypes.bool
 }
+PokemonCard.defaultProps = {
+  loading: true
+}
+export default PokemonCard

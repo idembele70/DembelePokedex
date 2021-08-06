@@ -7,7 +7,7 @@ export default makeStyles({
     position: "relative",
     border: "1px solid rgba(0, 0, 0, 0.12)",
     borderRadius: 18,
-    margin: 2
+    margin: 0
   },
   skeletonImg: {
     width: 126,

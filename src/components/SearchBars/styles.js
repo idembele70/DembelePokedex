@@ -4,7 +4,7 @@ export default makeStyles({
   root: {
     width: "82vw",
     maxWidth: 674,
-    margin: "54px auto 50px"
+    margin: "53px auto 54px"
   },
   form: {
     width: "100%",

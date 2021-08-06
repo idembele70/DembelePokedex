@@ -3,17 +3,18 @@ import { makeStyles } from "@material-ui/core"
 export default makeStyles({
   root: {
     display: "flex",
-    maxWidth: 307,
+    width: 241,
     height: 115,
-    margin: "auto",
     padding: "26px 37px 25px 27px",
+    margin: "auto",
     alignItems: "center",
     position: "relative",
     borderRadius: 18
   },
   image: {
     height: 117,
-    width: 126
+    width: 126,
+    objectFit: "contain"
   },
   CardContent: {
     marginLeft: 32,
@@ -67,6 +68,9 @@ export default makeStyles({
       padding: 0,
       width: "100%",
       height: "100%"
+    },
+    "& .MuiFormControlLabel-root": {
+      margin: 0
     }
   }
 })

@@ -1,7 +1,7 @@
 import { Grid } from "@material-ui/core"
 import Skeleton from "@material-ui/lab/Skeleton"
 import React from "react"
-import useStyles from "./style"
+import useStyles from "./styles"
 
 function PokemonSkeleton() {
   const classes = useStyles()
