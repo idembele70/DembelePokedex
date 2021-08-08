@@ -16,17 +16,28 @@ const useStyles = makeStyles({
 })
 function ScrollToTop({ showBellow }) {
   const classes = useStyles()
+  const [show, setShow] = useState(false)
 
   const handleScrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
+  const onScroll = () => {
+    if (window.pageYOffset > showBellow) {
+      setShow(true)
+    } else setShow(false)
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll)
+  }, [])
   return (
-    <ArrowDropDownCircleRoundedIcon
-      onClick={handleScrollTop}
-      className={classes.root}
-      color="disabled"
-      fontSize="large"
-    />
+    show && (
+      <ArrowDropDownCircleRoundedIcon
+        onClick={handleScrollTop}
+        className={classes.root}
+        color="disabled"
+        fontSize="large"
+      />
+    )
   )
 }
 

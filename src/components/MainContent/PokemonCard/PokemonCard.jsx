@@ -6,7 +6,6 @@ import {
   CardMedia,
   Checkbox,
   FormControlLabel,
-  Grid,
   IconButton,
   Typography
 } from "@material-ui/core"
@@ -14,10 +13,9 @@ import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
 import React from "react"
 import colorType from "../../../data/colorType.json"
-import PokemonSkeleton from "../PokemonSkeleton/PokemonSkeleton"
 import useStyles from "./styles"
 
-function PokemonCard({ id, name, firstType, secondType, image, loading }) {
+function PokemonCard({ id, name, firstType, secondType, image }) {
   const classes = useStyles()
   const firstTypeColor = firstType
     ? colorType[firstType.toLowerCase()]
@@ -29,11 +27,7 @@ function PokemonCard({ id, name, firstType, secondType, image, loading }) {
     e.target.onerror = null
     e.target.src = "img/assets/404-group.png"
   }
-  return loading ? (
-    <Grid item key={Math.random()} id="skeleton">
-      <PokemonSkeleton />
-    </Grid>
-  ) : (
+  return (
     <Card variant="outlined" className={classes.root}>
       <CardMedia
         className={classes.image}
@@ -91,10 +85,6 @@ PokemonCard.propTypes = {
   name: PropTypes.string.isRequired,
   firstType: PropTypes.string.isRequired,
   secondType: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  loading: PropTypes.bool
-}
-PokemonCard.defaultProps = {
-  loading: true
+  image: PropTypes.string.isRequired
 }
 export default PokemonCard
