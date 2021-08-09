@@ -3,10 +3,7 @@
     "id": "001",
     "name": "Bulbasaur",
     "img": "http://img.pokemondb.net/artwork/bulbasaur.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": 45,
       "attack": "49",
@@ -368,12 +365,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Overgrow"
-        ],
-        "hidden": [
-          "Chlorophyll"
-        ]
+        "normal": ["Overgrow"],
+        "hidden": ["Chlorophyll"]
       },
       "classification": "seed pokemon",
       "height": "2’04”",
@@ -382,9 +375,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "34",
       "entreeforestlevel": "10"
     }
@@ -393,10 +384,7 @@
     "id": "002",
     "name": "Ivysaur",
     "img": "http://img.pokemondb.net/artwork/ivysaur.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "60",
       "attack": "62",
@@ -772,12 +760,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Overgrow"
-        ],
-        "hidden": [
-          "Chlorophyll"
-        ]
+        "normal": ["Overgrow"],
+        "hidden": ["Chlorophyll"]
       },
       "classification": "seed pokemon",
       "height": "3’03”",
@@ -786,10 +770,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "34",
       "entreeforestlevel": "16"
     }
@@ -798,10 +779,7 @@
     "id": "003",
     "name": "Venusaur",
     "img": "http://img.pokemondb.net/artwork/venusaur.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "80",
       "attack": "82",
@@ -1224,12 +1202,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Overgrow"
-        ],
-        "hidden": [
-          "Chlorophyll"
-        ]
+        "normal": ["Overgrow"],
+        "hidden": ["Chlorophyll"]
       },
       "classification": "seed pokemon",
       "height": "6’07”",
@@ -1238,10 +1212,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "34",
       "entreeforestlevel": "32"
     }
@@ -1250,9 +1221,7 @@
     "id": "004",
     "name": "Charmander",
     "img": "http://img.pokemondb.net/artwork/charmander.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "39",
       "attack": "52",
@@ -1667,12 +1636,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Blaze"
-        ],
-        "hidden": [
-          "Solar Power"
-        ]
+        "normal": ["Blaze"],
+        "hidden": ["Solar Power"]
       },
       "classification": "lizard pokemon",
       "height": "2’00”",
@@ -1681,9 +1646,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "94",
       "entreeforestlevel": "10"
     }
@@ -1692,9 +1655,7 @@
     "id": "005",
     "name": "Charmeleon",
     "img": "http://img.pokemondb.net/artwork/charmeleon.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "58",
       "attack": "64",
@@ -2114,12 +2075,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Blaze"
-        ],
-        "hidden": [
-          "Solar Power"
-        ]
+        "normal": ["Blaze"],
+        "hidden": ["Solar Power"]
       },
       "classification": "flame pokemon",
       "height": "3’07”",
@@ -2128,10 +2085,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)",
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)", "1 Sp. Attack Point(s)"],
       "fleeflag": "94",
       "entreeforestlevel": "16"
     }
@@ -2140,10 +2094,7 @@
     "id": "006",
     "name": "Charizard",
     "img": "http://img.pokemondb.net/artwork/charizard.jpg",
-    "type": [
-      "Fire",
-      "Flying"
-    ],
+    "type": ["Fire", "Flying"],
     "stats": {
       "hp": "78",
       "attack": "84",
@@ -2676,12 +2627,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Blaze"
-        ],
-        "hidden": [
-          "Solar Power"
-        ]
+        "normal": ["Blaze"],
+        "hidden": ["Solar Power"]
       },
       "classification": "flame pokemon",
       "height": "5’07”",
@@ -2690,9 +2637,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "94",
       "entreeforestlevel": "36"
     }
@@ -2701,9 +2646,7 @@
     "id": "007",
     "name": "Squirtle",
     "img": "http://img.pokemondb.net/artwork/squirtle.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "44",
       "attack": "48",
@@ -3110,12 +3053,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Torrent"
-        ],
-        "hidden": [
-          "Rain Dish"
-        ]
+        "normal": ["Torrent"],
+        "hidden": ["Rain Dish"]
       },
       "classification": "tiny turtle pokemon",
       "height": "1’08”",
@@ -3124,9 +3063,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "44",
       "entreeforestlevel": "10"
     }
@@ -3135,9 +3072,7 @@
     "id": "008",
     "name": "Wartortle",
     "img": "http://img.pokemondb.net/artwork/wartortle.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "59",
       "attack": "63",
@@ -3554,12 +3489,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Torrent"
-        ],
-        "hidden": [
-          "Rain Dish"
-        ]
+        "normal": ["Torrent"],
+        "hidden": ["Rain Dish"]
       },
       "classification": "turtle pokemon",
       "height": "3’03”",
@@ -3568,10 +3499,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "44",
       "entreeforestlevel": "16"
     }
@@ -3580,9 +3508,7 @@
     "id": "009",
     "name": "Blastoise",
     "img": "http://img.pokemondb.net/artwork/blastoise.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "79",
       "attack": "83",
@@ -4075,12 +4001,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Torrent"
-        ],
-        "hidden": [
-          "Rain Dish"
-        ]
+        "normal": ["Torrent"],
+        "hidden": ["Rain Dish"]
       },
       "classification": "shellfish pokemon",
       "height": "5’03”",
@@ -4089,9 +4011,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["3 Sp. Defense Point(s)"],
       "fleeflag": "44",
       "entreeforestlevel": "36"
     }
@@ -4100,9 +4020,7 @@
     "id": "010",
     "name": "Caterpie",
     "img": "http://img.pokemondb.net/artwork/caterpie.jpg",
-    "type": [
-      "Bug"
-    ],
+    "type": ["Bug"],
     "stats": {
       "hp": 45,
       "attack": "30",
@@ -4164,12 +4082,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shield Dust"
-        ],
-        "hidden": [
-          "Run Away"
-        ]
+        "normal": ["Shield Dust"],
+        "hidden": ["Run Away"]
       },
       "classification": "worm pokemon",
       "height": "1’00”",
@@ -4178,9 +4092,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)"],
       "fleeflag": "50",
       "entreeforestlevel": "10"
     }
@@ -4189,9 +4101,7 @@
     "id": "011",
     "name": "Metapod",
     "img": "http://img.pokemondb.net/artwork/metapod.jpg",
-    "type": [
-      "Bug"
-    ],
+    "type": ["Bug"],
     "stats": {
       "hp": "50",
       "attack": "20",
@@ -4256,9 +4166,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shed Skin"
-        ],
+        "normal": ["Shed Skin"],
         "hidden": []
       },
       "classification": "cocoon pokemon",
@@ -4268,9 +4176,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "61",
       "entreeforestlevel": "10"
     }
@@ -4279,10 +4185,7 @@
     "id": "012",
     "name": "Butterfree",
     "img": "http://img.pokemondb.net/artwork/butterfree.jpg",
-    "type": [
-      "Bug",
-      "Flying"
-    ],
+    "type": ["Bug", "Flying"],
     "stats": {
       "hp": "60",
       "attack": 45,
@@ -4636,12 +4539,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Compoundeyes"
-        ],
-        "hidden": [
-          "Tinted Lens"
-        ]
+        "normal": ["Compoundeyes"],
+        "hidden": ["Tinted Lens"]
       },
       "classification": "butterfly pokemon",
       "height": "3’07”",
@@ -4650,10 +4549,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "110",
       "entreeforestlevel": "10"
     }
@@ -4662,10 +4558,7 @@
     "id": "013",
     "name": "Weedle",
     "img": "http://img.pokemondb.net/artwork/weedle.jpg",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
+    "type": ["Bug", "Poison"],
     "stats": {
       "hp": "40",
       "attack": "35",
@@ -4722,12 +4615,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shield Dust"
-        ],
-        "hidden": [
-          "Run Away"
-        ]
+        "normal": ["Shield Dust"],
+        "hidden": ["Run Away"]
       },
       "classification": "hairy pokemon",
       "height": "1’00”",
@@ -4736,9 +4625,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "50",
       "entreeforestlevel": "10"
     }
@@ -4747,10 +4634,7 @@
     "id": "014",
     "name": "Kakuna",
     "img": "http://img.pokemondb.net/artwork/kakuna.jpg",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
+    "type": ["Bug", "Poison"],
     "stats": {
       "hp": 45,
       "attack": "25",
@@ -4815,9 +4699,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shed Skin"
-        ],
+        "normal": ["Shed Skin"],
         "hidden": []
       },
       "classification": "cocoon pokemon",
@@ -4827,9 +4709,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "61",
       "entreeforestlevel": "10"
     }
@@ -4838,10 +4718,7 @@
     "id": "015",
     "name": "Beedrill",
     "img": "http://img.pokemondb.net/artwork/beedrill.jpg",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
+    "type": ["Bug", "Poison"],
     "stats": {
       "hp": "65",
       "attack": "80",
@@ -5189,12 +5066,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swarm"
-        ],
-        "hidden": [
-          "Sniper"
-        ]
+        "normal": ["Swarm"],
+        "hidden": ["Sniper"]
       },
       "classification": "poison bee pokemon",
       "height": "3’03”",
@@ -5203,10 +5076,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "97",
       "entreeforestlevel": "10"
     }
@@ -5215,10 +5085,7 @@
     "id": "016",
     "name": "Pidgey",
     "img": "http://img.pokemondb.net/artwork/pidgey.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "40",
       "attack": 45,
@@ -5517,13 +5384,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye",
-          "Tangled Feet"
-        ],
-        "hidden": [
-          "Big Pecks"
-        ]
+        "normal": ["Keen Eye", "Tangled Feet"],
+        "hidden": ["Big Pecks"]
       },
       "classification": "tiny bird pokemon",
       "height": "1’00”",
@@ -5532,9 +5394,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "145",
       "entreeforestlevel": "10"
     }
@@ -5543,10 +5403,7 @@
     "id": "017",
     "name": "Pidgeotto",
     "img": "http://img.pokemondb.net/artwork/pidgeotto.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "63",
       "attack": "60",
@@ -5859,13 +5716,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye",
-          "Tangled Feet"
-        ],
-        "hidden": [
-          "Big Pecks"
-        ]
+        "normal": ["Keen Eye", "Tangled Feet"],
+        "hidden": ["Big Pecks"]
       },
       "classification": "bird pokemon",
       "height": "3’07”",
@@ -5874,9 +5726,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "145",
       "entreeforestlevel": "18"
     }
@@ -5885,10 +5735,7 @@
     "id": "018",
     "name": "Pidgeot",
     "img": "http://img.pokemondb.net/artwork/pidgeot.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "83",
       "attack": "80",
@@ -6216,13 +6063,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye",
-          "Tangled Feet"
-        ],
-        "hidden": [
-          "Big Pecks"
-        ]
+        "normal": ["Keen Eye", "Tangled Feet"],
+        "hidden": ["Big Pecks"]
       },
       "classification": "bird pokemon",
       "height": "4’11”",
@@ -6231,9 +6073,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Speed Point(s)"
-      ],
+      "evpoints": ["3 Speed Point(s)"],
       "fleeflag": "145",
       "entreeforestlevel": "36"
     }
@@ -6242,9 +6082,7 @@
     "id": "019",
     "name": "Rattata",
     "img": "http://img.pokemondb.net/artwork/rattata.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "30",
       "attack": "56",
@@ -6622,13 +6460,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Guts"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Run Away", "Guts"],
+        "hidden": ["Hustle"]
       },
       "classification": "mouse pokemon",
       "height": "1’00”",
@@ -6637,9 +6470,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "10"
     }
@@ -6648,9 +6479,7 @@
     "id": "020",
     "name": "Raticate",
     "img": "http://img.pokemondb.net/artwork/raticate.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "55",
       "attack": "81",
@@ -7077,13 +6906,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Guts"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Run Away", "Guts"],
+        "hidden": ["Hustle"]
       },
       "classification": "mouse pokemon",
       "height": "2’04”",
@@ -7092,9 +6916,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "20"
     }
@@ -7103,10 +6925,7 @@
     "id": "021",
     "name": "Spearow",
     "img": "http://img.pokemondb.net/artwork/spearow.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "40",
       "attack": "60",
@@ -7428,12 +7247,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye"
-        ],
-        "hidden": [
-          "Sniper"
-        ]
+        "normal": ["Keen Eye"],
+        "hidden": ["Sniper"]
       },
       "classification": "tiny bird pokemon",
       "height": "1’00”",
@@ -7442,9 +7257,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "97",
       "entreeforestlevel": "10"
     }
@@ -7453,10 +7266,7 @@
     "id": "022",
     "name": "Fearow",
     "img": "http://img.pokemondb.net/artwork/fearow.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "65",
       "attack": "90",
@@ -7804,12 +7614,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye"
-        ],
-        "hidden": [
-          "Sniper"
-        ]
+        "normal": ["Keen Eye"],
+        "hidden": ["Sniper"]
       },
       "classification": "beak pokemon",
       "height": "3’11”",
@@ -7818,9 +7624,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "97",
       "entreeforestlevel": "20"
     }
@@ -7829,9 +7633,7 @@
     "id": "023",
     "name": "Ekans",
     "img": "http://img.pokemondb.net/artwork/ekans.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "35",
       "attack": "60",
@@ -8195,13 +7997,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Intimidate",
-          "Shed Skin"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Intimidate", "Shed Skin"],
+        "hidden": ["Unnerve"]
       },
       "classification": "snake pokemon",
       "height": "6’07”",
@@ -8210,9 +8007,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "10"
     }
@@ -8221,9 +8016,7 @@
     "id": "024",
     "name": "Arbok",
     "img": "http://img.pokemondb.net/artwork/arbok.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "60",
       "attack": "85",
@@ -8636,13 +8429,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Intimidate",
-          "Shed Skin"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Intimidate", "Shed Skin"],
+        "hidden": ["Unnerve"]
       },
       "classification": "cobra pokemon",
       "height": "11’06”",
@@ -8651,9 +8439,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "22"
     }
@@ -8662,9 +8448,7 @@
     "id": "025",
     "name": "Pikachu",
     "img": "http://img.pokemondb.net/artwork/pikachu.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "35",
       "attack": "55",
@@ -9079,12 +8863,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Static"
-        ],
-        "hidden": [
-          "Lightningrod"
-        ]
+        "normal": ["Static"],
+        "hidden": ["Lightningrod"]
       },
       "classification": "mouse pokemon",
       "height": "1’04”",
@@ -9093,9 +8873,7 @@
       "eggsteps": "2560",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "31",
       "entreeforestlevel": "10"
     }
@@ -9104,9 +8882,7 @@
     "id": "026",
     "name": "Raichu",
     "img": "http://img.pokemondb.net/artwork/raichu.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "60",
       "attack": "90",
@@ -9491,12 +9267,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Static"
-        ],
-        "hidden": [
-          "Lightningrod"
-        ]
+        "normal": ["Static"],
+        "hidden": ["Lightningrod"]
       },
       "classification": "mouse pokemon",
       "height": "2’07”",
@@ -9505,9 +9277,7 @@
       "eggsteps": "2560",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "3 Speed Point(s)"
-      ],
+      "evpoints": ["3 Speed Point(s)"],
       "fleeflag": "31",
       "entreeforestlevel": "10"
     }
@@ -9516,9 +9286,7 @@
     "id": "027",
     "name": "Sandshrew",
     "img": "http://img.pokemondb.net/artwork/sandshrew.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "50",
       "attack": "75",
@@ -9905,12 +9673,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Sand Veil"
-        ],
-        "hidden": [
-          "Sand Rush"
-        ]
+        "normal": ["Sand Veil"],
+        "hidden": ["Sand Rush"]
       },
       "classification": "mouse pokemon",
       "height": "2’00”",
@@ -9919,9 +9683,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "146",
       "entreeforestlevel": "10"
     }
@@ -9930,9 +9692,7 @@
     "id": "028",
     "name": "Sandslash",
     "img": "http://img.pokemondb.net/artwork/sandslash.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "75",
       "attack": "100",
@@ -10354,12 +10114,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Sand Veil"
-        ],
-        "hidden": [
-          "Sand Rush"
-        ]
+        "normal": ["Sand Veil"],
+        "hidden": ["Sand Rush"]
       },
       "classification": "mouse pokemon",
       "height": "3’03”",
@@ -10368,9 +10124,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "146",
       "entreeforestlevel": "22"
     }
@@ -10379,9 +10133,7 @@
     "id": "029",
     "name": "Nidoran?",
     "img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "55",
       "attack": "47",
@@ -10740,13 +10492,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Hustle"]
       },
       "classification": "poison pin pokemon",
       "height": "1’04”",
@@ -10755,9 +10502,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "10"
     }
@@ -10766,9 +10511,7 @@
     "id": "030",
     "name": "Nidorina",
     "img": "http://img.pokemondb.net/artwork/nidorina.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "70",
       "attack": "62",
@@ -11132,13 +10875,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Hustle"]
       },
       "classification": "poison pin pokemon",
       "height": "2’07”",
@@ -11147,9 +10885,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "16"
     }
@@ -11158,10 +10894,7 @@
     "id": "031",
     "name": "Nidoqueen",
     "img": "http://img.pokemondb.net/artwork/nidoqueen.jpg",
-    "type": [
-      "Poison",
-      "Ground"
-    ],
+    "type": ["Poison", "Ground"],
     "stats": {
       "hp": "90",
       "attack": "82",
@@ -11687,13 +11420,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Sheer Force"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Sheer Force"]
       },
       "classification": "drill pokemon",
       "height": "4’03”",
@@ -11702,9 +11430,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 HP Point(s)"
-      ],
+      "evpoints": ["3 HP Point(s)"],
       "fleeflag": "125",
       "entreeforestlevel": "16"
     }
@@ -11713,9 +11439,7 @@
     "id": "032",
     "name": "Nidoran?",
     "img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "46",
       "attack": "57",
@@ -12074,13 +11798,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Hustle"]
       },
       "classification": "poison pin pokemon",
       "height": "1’08”",
@@ -12089,9 +11808,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "10"
     }
@@ -12100,9 +11817,7 @@
     "id": "033",
     "name": "Nidorino",
     "img": "http://img.pokemondb.net/artwork/nidorino.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "61",
       "attack": "72",
@@ -12461,13 +12176,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Hustle"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Hustle"]
       },
       "classification": "poison pin pokemon",
       "height": "2’11”",
@@ -12476,9 +12186,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "55",
       "entreeforestlevel": "16"
     }
@@ -12487,10 +12195,7 @@
     "id": "034",
     "name": "Nidoking",
     "img": "http://img.pokemondb.net/artwork/nidoking.jpg",
-    "type": [
-      "Poison",
-      "Ground"
-    ],
+    "type": ["Poison", "Ground"],
     "stats": {
       "hp": "81",
       "attack": "92",
@@ -13019,13 +12724,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Rivalry"
-        ],
-        "hidden": [
-          "Sheer Force"
-        ]
+        "normal": ["Poison Point", "Rivalry"],
+        "hidden": ["Sheer Force"]
       },
       "classification": "drill pokemon",
       "height": "4’07”",
@@ -13034,9 +12734,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Attack Point(s)"
-      ],
+      "evpoints": ["3 Attack Point(s)"],
       "fleeflag": "125",
       "entreeforestlevel": "16"
     }
@@ -13045,9 +12743,7 @@
     "id": "035",
     "name": "Clefairy",
     "img": "http://img.pokemondb.net/artwork/clefairy.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "70",
       "attack": 45,
@@ -13624,13 +13320,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Cute Charm",
-          "Magic Guard"
-        ],
-        "hidden": [
-          "Friend Guard"
-        ]
+        "normal": ["Cute Charm", "Magic Guard"],
+        "hidden": ["Friend Guard"]
       },
       "classification": "fairy pokemon",
       "height": "2’00”",
@@ -13639,9 +13330,7 @@
       "eggsteps": "2560",
       "expgrowth": "800000",
       "happiness": "140",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "132",
       "entreeforestlevel": "10"
     }
@@ -13650,9 +13339,7 @@
     "id": "036",
     "name": "Clefable",
     "img": "http://img.pokemondb.net/artwork/clefable.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "95",
       "attack": "70",
@@ -14172,13 +13859,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Cute Charm",
-          "Magic Guard"
-        ],
-        "hidden": [
-          "Unaware"
-        ]
+        "normal": ["Cute Charm", "Magic Guard"],
+        "hidden": ["Unaware"]
       },
       "classification": "fairy pokemon",
       "height": "4’03”",
@@ -14187,9 +13869,7 @@
       "eggsteps": "2560",
       "expgrowth": "800000",
       "happiness": "140",
-      "evpoints": [
-        "3 HP Point(s)"
-      ],
+      "evpoints": ["3 HP Point(s)"],
       "fleeflag": "109",
       "entreeforestlevel": "10"
     }
@@ -14198,9 +13878,7 @@
     "id": "037",
     "name": "Vulpix",
     "img": "http://img.pokemondb.net/artwork/vulpix.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "38",
       "attack": "41",
@@ -14575,12 +14253,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Drought"
-        ]
+        "normal": ["Flash Fire"],
+        "hidden": ["Drought"]
       },
       "classification": "fox pokemon",
       "height": "2’00”",
@@ -14589,9 +14263,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "70",
       "entreeforestlevel": "10"
     }
@@ -14600,9 +14272,7 @@
     "id": "038",
     "name": "Ninetales",
     "img": "http://img.pokemondb.net/artwork/ninetales.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "73",
       "attack": "76",
@@ -14947,12 +14617,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Drought"
-        ]
+        "normal": ["Flash Fire"],
+        "hidden": ["Drought"]
       },
       "classification": "fox pokemon",
       "height": "3’07”",
@@ -14961,10 +14627,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)",
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)", "1 Sp. Defense Point(s)"],
       "fleeflag": "70",
       "entreeforestlevel": "10"
     }
@@ -14973,9 +14636,7 @@
     "id": "039",
     "name": "Jigglypuff",
     "img": "http://img.pokemondb.net/artwork/jigglypuff.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "115",
       "attack": 45,
@@ -15468,12 +15129,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Cute Charm"
-        ],
-        "hidden": [
-          "Friend Guard"
-        ]
+        "normal": ["Cute Charm"],
+        "hidden": ["Friend Guard"]
       },
       "classification": "balloon pokemon",
       "height": "1’08”",
@@ -15482,9 +15139,7 @@
       "eggsteps": "2560",
       "expgrowth": "800000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "132",
       "entreeforestlevel": "10"
     }
@@ -15493,9 +15148,7 @@
     "id": "040",
     "name": "Wigglytuff",
     "img": "http://img.pokemondb.net/artwork/wigglytuff.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "140",
       "attack": "70",
@@ -15973,12 +15626,8 @@
         "female": "75"
       },
       "abilities": {
-        "normal": [
-          "Cute Charm"
-        ],
-        "hidden": [
-          "Frisk"
-        ]
+        "normal": ["Cute Charm"],
+        "hidden": ["Frisk"]
       },
       "classification": "balloon pokemon",
       "height": "3’03”",
@@ -15987,9 +15636,7 @@
       "eggsteps": "2560",
       "expgrowth": "800000",
       "happiness": "70",
-      "evpoints": [
-        "3 HP Point(s)"
-      ],
+      "evpoints": ["3 HP Point(s)"],
       "fleeflag": "119",
       "entreeforestlevel": "10"
     }
@@ -15998,10 +15645,7 @@
     "id": "041",
     "name": "Zubat",
     "img": "http://img.pokemondb.net/artwork/zubat.jpg",
-    "type": [
-      "Poison",
-      "Flying"
-    ],
+    "type": ["Poison", "Flying"],
     "stats": {
       "hp": "40",
       "attack": 45,
@@ -16356,12 +16000,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Infiltrator"
-        ]
+        "normal": ["Inner Focus"],
+        "hidden": ["Infiltrator"]
       },
       "classification": "bat pokemon",
       "height": "2’07”",
@@ -16370,9 +16010,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "151",
       "entreeforestlevel": "10"
     }
@@ -16381,10 +16019,7 @@
     "id": "042",
     "name": "Golbat",
     "img": "http://img.pokemondb.net/artwork/golbat.jpg",
-    "type": [
-      "Poison",
-      "Flying"
-    ],
+    "type": ["Poison", "Flying"],
     "stats": {
       "hp": "75",
       "attack": "80",
@@ -16764,12 +16399,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Infiltrator"
-        ]
+        "normal": ["Inner Focus"],
+        "hidden": ["Infiltrator"]
       },
       "classification": "bat pokemon",
       "height": "5’03”",
@@ -16778,9 +16409,7 @@
       "eggsteps": "3840",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "151",
       "entreeforestlevel": "22"
     }
@@ -16789,10 +16418,7 @@
     "id": "043",
     "name": "Oddish",
     "img": "http://img.pokemondb.net/artwork/oddish.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": 45,
       "attack": "50",
@@ -17082,12 +16708,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Run Away"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Run Away"]
       },
       "classification": "weed pokemon",
       "height": "1’08”",
@@ -17096,9 +16718,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "50",
       "entreeforestlevel": "10"
     }
@@ -17107,10 +16727,7 @@
     "id": "044",
     "name": "Gloom",
     "img": "http://img.pokemondb.net/artwork/gloom.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "60",
       "attack": "65",
@@ -17419,12 +17036,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Stench"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Stench"]
       },
       "classification": "weed pokemon",
       "height": "2’07”",
@@ -17433,9 +17046,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "1",
       "entreeforestlevel": "21"
     }
@@ -17444,10 +17055,7 @@
     "id": "045",
     "name": "Vileplume",
     "img": "http://img.pokemondb.net/artwork/vileplume.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "75",
       "attack": "80",
@@ -17738,12 +17346,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Effect Spore"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Effect Spore"]
       },
       "classification": "flower pokemon",
       "height": "3’11”",
@@ -17752,9 +17356,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "27",
       "entreeforestlevel": "21"
     }
@@ -17763,10 +17365,7 @@
     "id": "046",
     "name": "Paras",
     "img": "http://img.pokemondb.net/artwork/paras.jpg",
-    "type": [
-      "Bug",
-      "Grass"
-    ],
+    "type": ["Bug", "Grass"],
     "stats": {
       "hp": "35",
       "attack": "70",
@@ -18134,13 +17733,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Effect Spore",
-          "Dry Skin"
-        ],
-        "hidden": [
-          "Damp"
-        ]
+        "normal": ["Effect Spore", "Dry Skin"],
+        "hidden": ["Damp"]
       },
       "classification": "mushroom pokemon",
       "height": "1’00”",
@@ -18149,9 +17743,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "6",
       "entreeforestlevel": "10"
     }
@@ -18160,10 +17752,7 @@
     "id": "047",
     "name": "Parasect",
     "img": "http://img.pokemondb.net/artwork/parasect.jpg",
-    "type": [
-      "Bug",
-      "Grass"
-    ],
+    "type": ["Bug", "Grass"],
     "stats": {
       "hp": "60",
       "attack": "95",
@@ -18557,13 +18146,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Effect Spore",
-          "Dry Skin"
-        ],
-        "hidden": [
-          "Damp"
-        ]
+        "normal": ["Effect Spore", "Dry Skin"],
+        "hidden": ["Damp"]
       },
       "classification": "mushroom pokemon",
       "height": "3’03”",
@@ -18572,10 +18156,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)",
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)", "1 Defense Point(s)"],
       "fleeflag": "6",
       "entreeforestlevel": "24"
     }
@@ -18584,10 +18165,7 @@
     "id": "048",
     "name": "Venonat",
     "img": "http://img.pokemondb.net/artwork/venonat.jpg",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
+    "type": ["Bug", "Poison"],
     "stats": {
       "hp": "60",
       "attack": "55",
@@ -18882,13 +18460,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Compoundeyes",
-          "Tinted Lens"
-        ],
-        "hidden": [
-          "Run Away"
-        ]
+        "normal": ["Compoundeyes", "Tinted Lens"],
+        "hidden": ["Run Away"]
       },
       "classification": "insect pokemon",
       "height": "3’03”",
@@ -18897,9 +18470,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Defense Point(s)"],
       "fleeflag": "50",
       "entreeforestlevel": "10"
     }
@@ -18908,10 +18479,7 @@
     "id": "049",
     "name": "Venomoth",
     "img": "http://img.pokemondb.net/artwork/venomoth.jpg",
-    "type": [
-      "Bug",
-      "Poison"
-    ],
+    "type": ["Bug", "Poison"],
     "stats": {
       "hp": "70",
       "attack": "65",
@@ -19289,13 +18857,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shield Dust",
-          "Tinted Lens"
-        ],
-        "hidden": [
-          "Wonder Skin "
-        ]
+        "normal": ["Shield Dust", "Tinted Lens"],
+        "hidden": ["Wonder Skin "]
       },
       "classification": "poison moth pokemon",
       "height": "4’11”",
@@ -19304,10 +18867,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)",
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)", "1 Sp. Attack Point(s)"],
       "fleeflag": "147",
       "entreeforestlevel": "31"
     }
@@ -19316,9 +18876,7 @@
     "id": "050",
     "name": "Diglett",
     "img": "http://img.pokemondb.net/artwork/diglett.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "10",
       "attack": "55",
@@ -19656,13 +19214,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Sand Veil",
-          "Arena Trap"
-        ],
-        "hidden": [
-          "Sand Force"
-        ]
+        "normal": ["Sand Veil", "Arena Trap"],
+        "hidden": ["Sand Force"]
       },
       "classification": "mole pokemon",
       "height": "0’08”",
@@ -19671,9 +19224,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "159",
       "entreeforestlevel": "10"
     }
@@ -19682,9 +19233,7 @@
     "id": "051",
     "name": "Dugtrio",
     "img": "http://img.pokemondb.net/artwork/dugtrio.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "35",
       "attack": "80",
@@ -20066,13 +19615,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Sand Veil",
-          "Arena Trap"
-        ],
-        "hidden": [
-          "Sand Force"
-        ]
+        "normal": ["Sand Veil", "Arena Trap"],
+        "hidden": ["Sand Force"]
       },
       "classification": "mole pokemon",
       "height": "2’04”",
@@ -20081,9 +19625,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "159",
       "entreeforestlevel": "26"
     }
@@ -20092,9 +19634,7 @@
     "id": "052",
     "name": "Meowth",
     "img": "http://img.pokemondb.net/artwork/meowth.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "40",
       "attack": 45,
@@ -20519,13 +20059,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Pickup",
-          "Technician"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Pickup", "Technician"],
+        "hidden": ["Unnerve"]
       },
       "classification": "scratch cat pokemon",
       "height": "1’04”",
@@ -20534,9 +20069,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "10"
     }
@@ -20545,9 +20078,7 @@
     "id": "053",
     "name": "Persian",
     "img": "http://img.pokemondb.net/artwork/persian.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "65",
       "attack": "70",
@@ -21003,13 +20534,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Limber",
-          "Technician"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Limber", "Technician"],
+        "hidden": ["Unnerve"]
       },
       "classification": "classy cat pokemon",
       "height": "3’03”",
@@ -21018,9 +20544,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "28"
     }
@@ -21029,9 +20553,7 @@
     "id": "054",
     "name": "Psyduck",
     "img": "http://img.pokemondb.net/artwork/psyduck.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "50",
       "attack": "52",
@@ -21482,13 +21004,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Damp",
-          "Cloud Nine"
-        ],
-        "hidden": [
-          "Swift Swim"
-        ]
+        "normal": ["Damp", "Cloud Nine"],
+        "hidden": ["Swift Swim"]
       },
       "classification": "duck pokemon",
       "height": "2’07”",
@@ -21497,9 +21014,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "33",
       "entreeforestlevel": "10"
     }
@@ -21508,9 +21023,7 @@
     "id": "055",
     "name": "Golduck",
     "img": "http://img.pokemondb.net/artwork/golduck.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "80",
       "attack": "82",
@@ -22008,13 +21521,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Damp",
-          "Cloud Nine"
-        ],
-        "hidden": [
-          "Swift Swim"
-        ]
+        "normal": ["Damp", "Cloud Nine"],
+        "hidden": ["Swift Swim"]
       },
       "classification": "duck pokemon",
       "height": "5’07”",
@@ -22023,9 +21531,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "33",
       "entreeforestlevel": "33"
     }
@@ -22034,9 +21540,7 @@
     "id": "056",
     "name": "Mankey",
     "img": "http://img.pokemondb.net/artwork/mankey.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "40",
       "attack": "80",
@@ -22525,13 +22029,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Vital Spirit",
-          "Anger Point"
-        ],
-        "hidden": [
-          "Defiant"
-        ]
+        "normal": ["Vital Spirit", "Anger Point"],
+        "hidden": ["Defiant"]
       },
       "classification": "pig monkey pokemon",
       "height": "1’08”",
@@ -22540,9 +22039,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "128",
       "entreeforestlevel": "10"
     }
@@ -22551,9 +22048,7 @@
     "id": "057",
     "name": "Primeape",
     "img": "http://img.pokemondb.net/artwork/primeape.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "65",
       "attack": "105",
@@ -23066,13 +22561,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Vital Spirit",
-          "Anger Point"
-        ],
-        "hidden": [
-          "Defiant"
-        ]
+        "normal": ["Vital Spirit", "Anger Point"],
+        "hidden": ["Defiant"]
       },
       "classification": "pig monkey pokemon",
       "height": "3’03”",
@@ -23081,9 +22571,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "128",
       "entreeforestlevel": "28"
     }
@@ -23092,9 +22580,7 @@
     "id": "058",
     "name": "Growlithe",
     "img": "http://img.pokemondb.net/artwork/growlithe.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "55",
       "attack": "70",
@@ -23465,13 +22951,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Intimidate",
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Justified"
-        ]
+        "normal": ["Intimidate", "Flash Fire"],
+        "hidden": ["Justified"]
       },
       "classification": "puppy pokemon",
       "height": "2’04”",
@@ -23480,9 +22961,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "154",
       "entreeforestlevel": "10"
     }
@@ -23491,9 +22970,7 @@
     "id": "059",
     "name": "Arcanine",
     "img": "http://img.pokemondb.net/artwork/arcanine.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "90",
       "attack": "110",
@@ -23837,13 +23314,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Intimidate",
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Justified"
-        ]
+        "normal": ["Intimidate", "Flash Fire"],
+        "hidden": ["Justified"]
       },
       "classification": "legendary pokemon",
       "height": "6’03”",
@@ -23852,9 +23324,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "154",
       "entreeforestlevel": "10"
     }
@@ -23863,9 +23333,7 @@
     "id": "060",
     "name": "Poliwag",
     "img": "http://img.pokemondb.net/artwork/poliwag.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "40",
       "attack": "50",
@@ -24190,13 +23658,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Water Absorb",
-          "Damp"
-        ],
-        "hidden": [
-          "Swift Swim"
-        ]
+        "normal": ["Water Absorb", "Damp"],
+        "hidden": ["Swift Swim"]
       },
       "classification": "tadpole pokemon",
       "height": "2’00”",
@@ -24205,9 +23668,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "33",
       "entreeforestlevel": "10"
     }
@@ -24216,9 +23677,7 @@
     "id": "061",
     "name": "Poliwhirl",
     "img": "http://img.pokemondb.net/artwork/poliwhirl.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "65",
       "attack": "65",
@@ -24615,13 +24074,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Water Absorb",
-          "Damp"
-        ],
-        "hidden": [
-          "Swift Swim"
-        ]
+        "normal": ["Water Absorb", "Damp"],
+        "hidden": ["Swift Swim"]
       },
       "classification": "tadpole pokemon",
       "height": "3’03”",
@@ -24630,9 +24084,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "33",
       "entreeforestlevel": "25"
     }
@@ -24641,10 +24093,7 @@
     "id": "062",
     "name": "Poliwrath",
     "img": "http://img.pokemondb.net/artwork/poliwrath.jpg",
-    "type": [
-      "Water",
-      "Fighting"
-    ],
+    "type": ["Water", "Fighting"],
     "stats": {
       "hp": "90",
       "attack": "85",
@@ -25063,13 +24512,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Water Absorb",
-          "Damp"
-        ],
-        "hidden": [
-          "Swift Swim"
-        ]
+        "normal": ["Water Absorb", "Damp"],
+        "hidden": ["Swift Swim"]
       },
       "classification": "tadpole pokemon",
       "height": "4’03”",
@@ -25078,9 +24522,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Defense Point(s)"
-      ],
+      "evpoints": ["3 Defense Point(s)"],
       "fleeflag": "33",
       "entreeforestlevel": "25"
     }
@@ -25089,9 +24531,7 @@
     "id": "063",
     "name": "Abra",
     "img": "http://img.pokemondb.net/artwork/abra.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "25",
       "attack": "20",
@@ -25477,13 +24917,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Synchronize",
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Magic Guard"
-        ]
+        "normal": ["Synchronize", "Inner Focus"],
+        "hidden": ["Magic Guard"]
       },
       "classification": "psi pokemon",
       "height": "2’11”",
@@ -25492,9 +24927,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "98",
       "entreeforestlevel": "10"
     }
@@ -25503,9 +24936,7 @@
     "id": "064",
     "name": "Kadabra",
     "img": "http://img.pokemondb.net/artwork/kadabra.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "40",
       "attack": "35",
@@ -25958,13 +25389,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Synchronize",
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Magic Guard"
-        ]
+        "normal": ["Synchronize", "Inner Focus"],
+        "hidden": ["Magic Guard"]
       },
       "classification": "psi pokemon",
       "height": "4’03”",
@@ -25973,9 +25399,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "98",
       "entreeforestlevel": "16"
     }
@@ -25984,9 +25408,7 @@
     "id": "065",
     "name": "Alakazam",
     "img": "http://img.pokemondb.net/artwork/alakazam.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "55",
       "attack": "50",
@@ -26458,13 +25880,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Synchronize",
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Magic Guard"
-        ]
+        "normal": ["Synchronize", "Inner Focus"],
+        "hidden": ["Magic Guard"]
       },
       "classification": "psi pokemon",
       "height": "4’11”",
@@ -26473,9 +25890,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "98",
       "entreeforestlevel": "16"
     }
@@ -26484,9 +25899,7 @@
     "id": "066",
     "name": "Machop",
     "img": "http://img.pokemondb.net/artwork/machop.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "70",
       "attack": "80",
@@ -26917,13 +26330,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Guts",
-          "No Guard"
-        ],
-        "hidden": [
-          "Steadfast"
-        ]
+        "normal": ["Guts", "No Guard"],
+        "hidden": ["Steadfast"]
       },
       "classification": "superpower pokemon",
       "height": "2’07”",
@@ -26932,9 +26340,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "80",
       "entreeforestlevel": "10"
     }
@@ -26943,9 +26349,7 @@
     "id": "067",
     "name": "Machoke",
     "img": "http://img.pokemondb.net/artwork/machoke.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "80",
       "attack": "100",
@@ -27386,13 +26790,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Guts",
-          "No Guard"
-        ],
-        "hidden": [
-          "Steadfast"
-        ]
+        "normal": ["Guts", "No Guard"],
+        "hidden": ["Steadfast"]
       },
       "classification": "superpower pokemon",
       "height": "4’11”",
@@ -27401,9 +26800,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "80",
       "entreeforestlevel": "28"
     }
@@ -27412,9 +26809,7 @@
     "id": "068",
     "name": "Machamp",
     "img": "http://img.pokemondb.net/artwork/machamp.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "90",
       "attack": "130",
@@ -27875,13 +27270,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Guts",
-          "No Guard"
-        ],
-        "hidden": [
-          "Steadfast"
-        ]
+        "normal": ["Guts", "No Guard"],
+        "hidden": ["Steadfast"]
       },
       "classification": "superpower pokemon",
       "height": "5’03”",
@@ -27890,9 +27280,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Attack Point(s)"
-      ],
+      "evpoints": ["3 Attack Point(s)"],
       "fleeflag": "80",
       "entreeforestlevel": "28"
     }
@@ -27901,10 +27289,7 @@
     "id": "069",
     "name": "Bellsprout",
     "img": "http://img.pokemondb.net/artwork/bellsprout.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "50",
       "attack": "75",
@@ -28217,12 +27602,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Gluttony"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Gluttony"]
       },
       "classification": "flower pokemon",
       "height": "2’04”",
@@ -28231,9 +27612,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "82",
       "entreeforestlevel": "10"
     }
@@ -28242,10 +27621,7 @@
     "id": "070",
     "name": "Weepinbell",
     "img": "http://img.pokemondb.net/artwork/weepinbell.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "65",
       "attack": "90",
@@ -28572,12 +27948,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Gluttony"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Gluttony"]
       },
       "classification": "flycatcher pokemon",
       "height": "3’03”",
@@ -28586,9 +27958,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "82",
       "entreeforestlevel": "21"
     }
@@ -28597,10 +27967,7 @@
     "id": "071",
     "name": "Victreebel",
     "img": "http://img.pokemondb.net/artwork/victreebel.jpg",
-    "type": [
-      "Grass",
-      "Poison"
-    ],
+    "type": ["Grass", "Poison"],
     "stats": {
       "hp": "80",
       "attack": "105",
@@ -28920,12 +28287,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Gluttony"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Gluttony"]
       },
       "classification": "flycatcher pokemon",
       "height": "5’07”",
@@ -28934,9 +28297,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Attack Point(s)"
-      ],
+      "evpoints": ["3 Attack Point(s)"],
       "fleeflag": "82",
       "entreeforestlevel": "21"
     }
@@ -28945,10 +28306,7 @@
     "id": "072",
     "name": "Tentacool",
     "img": "http://img.pokemondb.net/artwork/tentacool.jpg",
-    "type": [
-      "Water",
-      "Poison"
-    ],
+    "type": ["Water", "Poison"],
     "stats": {
       "hp": "40",
       "attack": "40",
@@ -29318,13 +28676,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Clear Body",
-          "Liquid Ooze"
-        ],
-        "hidden": [
-          "Rain Dish"
-        ]
+        "normal": ["Clear Body", "Liquid Ooze"],
+        "hidden": ["Rain Dish"]
       },
       "classification": "jellyfish pokemon",
       "height": "2’11”",
@@ -29333,9 +28686,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Defense Point(s)"],
       "fleeflag": "44",
       "entreeforestlevel": "10"
     }
@@ -29344,10 +28695,7 @@
     "id": "073",
     "name": "Tentacruel",
     "img": "http://img.pokemondb.net/artwork/tentacruel.jpg",
-    "type": [
-      "Water",
-      "Poison"
-    ],
+    "type": ["Water", "Poison"],
     "stats": {
       "hp": "80",
       "attack": "70",
@@ -29737,13 +29085,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Clear Body",
-          "Liquid Ooze"
-        ],
-        "hidden": [
-          "Rain Dish"
-        ]
+        "normal": ["Clear Body", "Liquid Ooze"],
+        "hidden": ["Rain Dish"]
       },
       "classification": "jellyfish pokemon",
       "height": "5’03”",
@@ -29752,9 +29095,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Defense Point(s)"],
       "fleeflag": "44",
       "entreeforestlevel": "30"
     }
@@ -29763,10 +29104,7 @@
     "id": "074",
     "name": "Geodude",
     "img": "http://img.pokemondb.net/artwork/geodude.jpg",
-    "type": [
-      "Rock",
-      "Ground"
-    ],
+    "type": ["Rock", "Ground"],
     "stats": {
       "hp": "40",
       "attack": "80",
@@ -30162,13 +29500,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Sand Veil"
-        ]
+        "normal": ["Rock Head", "Sturdy"],
+        "hidden": ["Sand Veil"]
       },
       "classification": "rock pokemon",
       "height": "1’04”",
@@ -30177,9 +29510,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "8",
       "entreeforestlevel": "10"
     }
@@ -30188,10 +29519,7 @@
     "id": "075",
     "name": "Graveler",
     "img": "http://img.pokemondb.net/artwork/graveler.jpg",
-    "type": [
-      "Rock",
-      "Ground"
-    ],
+    "type": ["Rock", "Ground"],
     "stats": {
       "hp": "55",
       "attack": "95",
@@ -30597,13 +29925,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Sand Veil"
-        ]
+        "normal": ["Rock Head", "Sturdy"],
+        "hidden": ["Sand Veil"]
       },
       "classification": "rock pokemon",
       "height": "3’03”",
@@ -30612,9 +29935,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "8",
       "entreeforestlevel": "25"
     }
@@ -30623,10 +29944,7 @@
     "id": "076",
     "name": "Golem",
     "img": "http://img.pokemondb.net/artwork/golem.jpg",
-    "type": [
-      "Rock",
-      "Ground"
-    ],
+    "type": ["Rock", "Ground"],
     "stats": {
       "hp": "80",
       "attack": "110",
@@ -31073,13 +30391,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Sand Veil"
-        ]
+        "normal": ["Rock Head", "Sturdy"],
+        "hidden": ["Sand Veil"]
       },
       "classification": "megaton pokemon",
       "height": "4’07”",
@@ -31088,9 +30401,7 @@
       "eggsteps": "3840",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Defense Point(s)"
-      ],
+      "evpoints": ["3 Defense Point(s)"],
       "fleeflag": "8",
       "entreeforestlevel": "25"
     }
@@ -31099,9 +30410,7 @@
     "id": "077",
     "name": "Ponyta",
     "img": "http://img.pokemondb.net/artwork/ponyta.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "50",
       "attack": "85",
@@ -31415,13 +30724,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Flame Body"
-        ]
+        "normal": ["Run Away", "Flash Fire"],
+        "hidden": ["Flame Body"]
       },
       "classification": "fire horse pokemon",
       "height": "3’03”",
@@ -31430,9 +30734,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "49",
       "entreeforestlevel": "10"
     }
@@ -31441,9 +30743,7 @@
     "id": "078",
     "name": "Rapidash",
     "img": "http://img.pokemondb.net/artwork/rapidash.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "65",
       "attack": "100",
@@ -31801,13 +31101,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Flame Body"
-        ]
+        "normal": ["Run Away", "Flash Fire"],
+        "hidden": ["Flame Body"]
       },
       "classification": "fire horse pokemon",
       "height": "5’07”",
@@ -31816,9 +31111,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "49",
       "entreeforestlevel": "40"
     }
@@ -31827,10 +31120,7 @@
     "id": "079",
     "name": "Slowpoke",
     "img": "http://img.pokemondb.net/artwork/slowpoke.jpg",
-    "type": [
-      "Water",
-      "Psychic"
-    ],
+    "type": ["Water", "Psychic"],
     "stats": {
       "hp": "90",
       "attack": "65",
@@ -32284,13 +31574,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Oblivious",
-          "Own Tempo"
-        ],
-        "hidden": [
-          "Regenerator"
-        ]
+        "normal": ["Oblivious", "Own Tempo"],
+        "hidden": ["Regenerator"]
       },
       "classification": "dopey pokemon",
       "height": "3’11”",
@@ -32299,9 +31584,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)"],
       "fleeflag": "144",
       "entreeforestlevel": "10"
     }
@@ -32310,10 +31593,7 @@
     "id": "080",
     "name": "Slowbro",
     "img": "http://img.pokemondb.net/artwork/slowbro.jpg",
-    "type": [
-      "Water",
-      "Psychic"
-    ],
+    "type": ["Water", "Psychic"],
     "stats": {
       "hp": "95",
       "attack": "75",
@@ -32856,13 +32136,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Oblivious",
-          "Own Tempo"
-        ],
-        "hidden": [
-          "Regenerator"
-        ]
+        "normal": ["Oblivious", "Own Tempo"],
+        "hidden": ["Regenerator"]
       },
       "classification": "hermit crab pokemon",
       "height": "5’03”",
@@ -32871,9 +32146,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "144",
       "entreeforestlevel": "37"
     }
@@ -32882,10 +32155,7 @@
     "id": "081",
     "name": "Magnemite",
     "img": "http://img.pokemondb.net/artwork/magnemite.jpg",
-    "type": [
-      "Electric",
-      "Steel"
-    ],
+    "type": ["Electric", "Steel"],
     "stats": {
       "hp": "25",
       "attack": "35",
@@ -33203,13 +32473,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Magnet Pull",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Analytic"
-        ]
+        "normal": ["Magnet Pull", "Sturdy"],
+        "hidden": ["Analytic"]
       },
       "classification": "magnet pokemon",
       "height": "1’00”",
@@ -33218,9 +32483,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "148",
       "entreeforestlevel": "10"
     }
@@ -33229,10 +32492,7 @@
     "id": "082",
     "name": "Magneton",
     "img": "http://img.pokemondb.net/artwork/magneton.jpg",
-    "type": [
-      "Electric",
-      "Steel"
-    ],
+    "type": ["Electric", "Steel"],
     "stats": {
       "hp": "50",
       "attack": "60",
@@ -33579,13 +32839,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Magnet Pull",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Analytic"
-        ]
+        "normal": ["Magnet Pull", "Sturdy"],
+        "hidden": ["Analytic"]
       },
       "classification": "magnet pokemon",
       "height": "3’03”",
@@ -33594,9 +32849,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "148",
       "entreeforestlevel": "30"
     }
@@ -33605,10 +32858,7 @@
     "id": "083",
     "name": "Farfetch'd",
     "img": "http://img.pokemondb.net/artwork/farfetch'd.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "52",
       "attack": "65",
@@ -34009,13 +33259,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye",
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Defiant"
-        ]
+        "normal": ["Keen Eye", "Inner Focus"],
+        "hidden": ["Defiant"]
       },
       "classification": "wild duck pokemon",
       "height": "2’07”",
@@ -34024,9 +33269,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "128",
       "entreeforestlevel": "10"
     }
@@ -34035,10 +33278,7 @@
     "id": "084",
     "name": "Doduo",
     "img": "http://img.pokemondb.net/artwork/doduo.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "35",
       "attack": "85",
@@ -34339,13 +33579,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Early Bird"
-        ],
-        "hidden": [
-          "Tangled Feet"
-        ]
+        "normal": ["Run Away", "Early Bird"],
+        "hidden": ["Tangled Feet"]
       },
       "classification": "twin bird pokemon",
       "height": "4’07”",
@@ -34354,9 +33589,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "77",
       "entreeforestlevel": "10"
     }
@@ -34365,10 +33598,7 @@
     "id": "085",
     "name": "Dodrio",
     "img": "http://img.pokemondb.net/artwork/dodrio.jpg",
-    "type": [
-      "Normal",
-      "Flying"
-    ],
+    "type": ["Normal", "Flying"],
     "stats": {
       "hp": "60",
       "attack": "110",
@@ -34717,13 +33947,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Early Bird"
-        ],
-        "hidden": [
-          "Tangled Feet"
-        ]
+        "normal": ["Run Away", "Early Bird"],
+        "hidden": ["Tangled Feet"]
       },
       "classification": "triple bird pokemon",
       "height": "5’11”",
@@ -34732,9 +33957,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "77",
       "entreeforestlevel": "31"
     }
@@ -34743,9 +33966,7 @@
     "id": "086",
     "name": "Seel",
     "img": "http://img.pokemondb.net/artwork/seel.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "65",
       "attack": 45,
@@ -35090,13 +34311,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Thick Fat",
-          "Hydration"
-        ],
-        "hidden": [
-          "Ice Body"
-        ]
+        "normal": ["Thick Fat", "Hydration"],
+        "hidden": ["Ice Body"]
       },
       "classification": "sea lion pokemon",
       "height": "3’07”",
@@ -35105,9 +34321,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Defense Point(s)"],
       "fleeflag": "115",
       "entreeforestlevel": "10"
     }
@@ -35116,10 +34330,7 @@
     "id": "087",
     "name": "Dewgong",
     "img": "http://img.pokemondb.net/artwork/dewgong.jpg",
-    "type": [
-      "Water",
-      "Ice"
-    ],
+    "type": ["Water", "Ice"],
     "stats": {
       "hp": "90",
       "attack": "70",
@@ -35499,13 +34710,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Thick Fat",
-          "Hydration"
-        ],
-        "hidden": [
-          "Ice Body"
-        ]
+        "normal": ["Thick Fat", "Hydration"],
+        "hidden": ["Ice Body"]
       },
       "classification": "sea lion pokemon",
       "height": "5’07”",
@@ -35514,9 +34720,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Defense Point(s)"],
       "fleeflag": "115",
       "entreeforestlevel": "34"
     }
@@ -35525,9 +34729,7 @@
     "id": "088",
     "name": "Grimer",
     "img": "http://img.pokemondb.net/artwork/grimer.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "80",
       "attack": "80",
@@ -35933,13 +35135,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Stench",
-          "Sticky Hold"
-        ],
-        "hidden": [
-          "Poison Touch"
-        ]
+        "normal": ["Stench", "Sticky Hold"],
+        "hidden": ["Poison Touch"]
       },
       "classification": "sludge pokemon",
       "height": "2’11”",
@@ -35948,9 +35145,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)"],
       "fleeflag": "143",
       "entreeforestlevel": "10"
     }
@@ -35959,9 +35154,7 @@
     "id": "089",
     "name": "Muk",
     "img": "http://img.pokemondb.net/artwork/muk.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "105",
       "attack": "105",
@@ -36410,13 +35603,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Stench",
-          "Sticky Hold"
-        ],
-        "hidden": [
-          "Poison Touch"
-        ]
+        "normal": ["Stench", "Sticky Hold"],
+        "hidden": ["Poison Touch"]
       },
       "classification": "sludge pokemon",
       "height": "3’11”",
@@ -36425,10 +35613,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)",
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)", "1 Attack Point(s)"],
       "fleeflag": "143",
       "entreeforestlevel": "38"
     }
@@ -36437,9 +35622,7 @@
     "id": "090",
     "name": "Shellder",
     "img": "http://img.pokemondb.net/artwork/shellder.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "30",
       "attack": "65",
@@ -36760,13 +35943,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shell Armor",
-          "Skill Link"
-        ],
-        "hidden": [
-          "Overcoat"
-        ]
+        "normal": ["Shell Armor", "Skill Link"],
+        "hidden": ["Overcoat"]
       },
       "classification": "bivalve pokemon",
       "height": "1’00”",
@@ -36775,9 +35953,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "142",
       "entreeforestlevel": "10"
     }
@@ -36786,10 +35962,7 @@
     "id": "091",
     "name": "Cloyster",
     "img": "http://img.pokemondb.net/artwork/cloyster.jpg",
-    "type": [
-      "Water",
-      "Ice"
-    ],
+    "type": ["Water", "Ice"],
     "stats": {
       "hp": "50",
       "attack": "95",
@@ -37107,13 +36280,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shell Armor",
-          "Skill Link"
-        ],
-        "hidden": [
-          "Overcoat"
-        ]
+        "normal": ["Shell Armor", "Skill Link"],
+        "hidden": ["Overcoat"]
       },
       "classification": "bivalve pokemon",
       "height": "4’11”",
@@ -37122,9 +36290,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "142",
       "entreeforestlevel": "10"
     }
@@ -37133,10 +36299,7 @@
     "id": "092",
     "name": "Gastly",
     "img": "http://img.pokemondb.net/artwork/gastly.jpg",
-    "type": [
-      "Ghost",
-      "Poison"
-    ],
+    "type": ["Ghost", "Poison"],
     "stats": {
       "hp": "30",
       "attack": "35",
@@ -37527,9 +36690,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Levitate"
-        ],
+        "normal": ["Levitate"],
         "hidden": []
       },
       "classification": "gas pokemon",
@@ -37539,9 +36700,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "10"
     }
@@ -37550,10 +36709,7 @@
     "id": "093",
     "name": "Haunter",
     "img": "http://img.pokemondb.net/artwork/haunter.jpg",
-    "type": [
-      "Ghost",
-      "Poison"
-    ],
+    "type": ["Ghost", "Poison"],
     "stats": {
       "hp": 45,
       "attack": "50",
@@ -37969,9 +37125,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Levitate"
-        ],
+        "normal": ["Levitate"],
         "hidden": []
       },
       "classification": "gas pokemon",
@@ -37981,9 +37135,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "25"
     }
@@ -37992,10 +37144,7 @@
     "id": "094",
     "name": "Gengar",
     "img": "http://img.pokemondb.net/artwork/gengar.jpg",
-    "type": [
-      "Ghost",
-      "Poison"
-    ],
+    "type": ["Ghost", "Poison"],
     "stats": {
       "hp": "60",
       "attack": "65",
@@ -38498,9 +37647,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Levitate"
-        ],
+        "normal": ["Levitate"],
         "hidden": []
       },
       "classification": "shadow pokemon",
@@ -38510,9 +37657,7 @@
       "eggsteps": "5120",
       "expgrowth": "1059860",
       "happiness": "70",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "25"
     }
@@ -38521,10 +37666,7 @@
     "id": "095",
     "name": "Onix",
     "img": "http://img.pokemondb.net/artwork/onix.jpg",
-    "type": [
-      "Rock",
-      "Ground"
-    ],
+    "type": ["Rock", "Ground"],
     "stats": {
       "hp": "35",
       "attack": 45,
@@ -38925,13 +38067,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Sturdy"
-        ],
-        "hidden": [
-          "Weak Armor"
-        ]
+        "normal": ["Rock Head", "Sturdy"],
+        "hidden": ["Weak Armor"]
       },
       "classification": "rock snake pokemon",
       "height": "28’10”",
@@ -38940,9 +38077,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "133",
       "entreeforestlevel": "10"
     }
@@ -38951,9 +38086,7 @@
     "id": "096",
     "name": "Drowzee",
     "img": "http://img.pokemondb.net/artwork/drowzee.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "60",
       "attack": "48",
@@ -39389,13 +38522,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Insomnia",
-          "Forewarn"
-        ],
-        "hidden": [
-          "Inner Focus"
-        ]
+        "normal": ["Insomnia", "Forewarn"],
+        "hidden": ["Inner Focus"]
       },
       "classification": "hypnosis pokemon",
       "height": "3’03”",
@@ -39404,9 +38532,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Defense Point(s)"],
       "fleeflag": "39",
       "entreeforestlevel": "10"
     }
@@ -39415,9 +38541,7 @@
     "id": "097",
     "name": "Hypno",
     "img": "http://img.pokemondb.net/artwork/hypno.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "85",
       "attack": "73",
@@ -39888,13 +39012,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Insomnia",
-          "Forewarn"
-        ],
-        "hidden": [
-          "Inner Focus"
-        ]
+        "normal": ["Insomnia", "Forewarn"],
+        "hidden": ["Inner Focus"]
       },
       "classification": "hypnosis pokemon",
       "height": "5’03”",
@@ -39903,9 +39022,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Defense Point(s)"],
       "fleeflag": "39",
       "entreeforestlevel": "26"
     }
@@ -39914,9 +39031,7 @@
     "id": "098",
     "name": "Krabby",
     "img": "http://img.pokemondb.net/artwork/krabby.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "30",
       "attack": "105",
@@ -40300,13 +39415,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Hyper Cutter",
-          "Shell Armor"
-        ],
-        "hidden": [
-          "Sheer Force"
-        ]
+        "normal": ["Hyper Cutter", "Shell Armor"],
+        "hidden": ["Sheer Force"]
       },
       "classification": "river crab pokemon",
       "height": "1’04”",
@@ -40315,9 +39425,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "125",
       "entreeforestlevel": "10"
     }
@@ -40326,9 +39434,7 @@
     "id": "099",
     "name": "Kingler",
     "img": "http://img.pokemondb.net/artwork/kingler.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "55",
       "attack": "130",
@@ -40742,13 +39848,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Hyper Cutter",
-          "Shell Armor"
-        ],
-        "hidden": [
-          "Sheer Force"
-        ]
+        "normal": ["Hyper Cutter", "Shell Armor"],
+        "hidden": ["Sheer Force"]
       },
       "classification": "pincer pokemon",
       "height": "4’03”",
@@ -40757,9 +39858,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "125",
       "entreeforestlevel": "28"
     }
@@ -40768,9 +39867,7 @@
     "id": "100",
     "name": "Voltorb",
     "img": "http://img.pokemondb.net/artwork/voltorb.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "40",
       "attack": "30",
@@ -41066,13 +40163,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Soundproof",
-          "Static"
-        ],
-        "hidden": [
-          "Aftermath"
-        ]
+        "normal": ["Soundproof", "Static"],
+        "hidden": ["Aftermath"]
       },
       "classification": "ball pokemon",
       "height": "1’08”",
@@ -41081,9 +40173,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "106",
       "entreeforestlevel": "10"
     }
@@ -41092,9 +40182,7 @@
     "id": "101",
     "name": "Electrode",
     "img": "http://img.pokemondb.net/artwork/electrode.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "60",
       "attack": "50",
@@ -41411,13 +40499,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Soundproof",
-          "Static"
-        ],
-        "hidden": [
-          "Aftermath"
-        ]
+        "normal": ["Soundproof", "Static"],
+        "hidden": ["Aftermath"]
       },
       "classification": "ball pokemon",
       "height": "3’11”",
@@ -41426,9 +40509,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "106",
       "entreeforestlevel": "30"
     }
@@ -41437,10 +40518,7 @@
     "id": "102",
     "name": "Exeggcute",
     "img": "http://img.pokemondb.net/artwork/exeggcute.jpg",
-    "type": [
-      "Grass",
-      "Psychic"
-    ],
+    "type": ["Grass", "Psychic"],
     "stats": {
       "hp": "60",
       "attack": "40",
@@ -41805,12 +40883,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Harvest"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Harvest"]
       },
       "classification": "egg pokemon",
       "height": "1’04”",
@@ -41819,9 +40893,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "139",
       "entreeforestlevel": "10"
     }
@@ -41830,10 +40902,7 @@
     "id": "103",
     "name": "Exeggutor",
     "img": "http://img.pokemondb.net/artwork/exeggutor.jpg",
-    "type": [
-      "Grass",
-      "Psychic"
-    ],
+    "type": ["Grass", "Psychic"],
     "stats": {
       "hp": "95",
       "attack": "95",
@@ -42203,12 +41272,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll"
-        ],
-        "hidden": [
-          "Harvest"
-        ]
+        "normal": ["Chlorophyll"],
+        "hidden": ["Harvest"]
       },
       "classification": "coconut pokemon",
       "height": "6’07”",
@@ -42217,9 +41282,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "139",
       "entreeforestlevel": "10"
     }
@@ -42228,9 +41291,7 @@
     "id": "104",
     "name": "Cubone",
     "img": "http://img.pokemondb.net/artwork/cubone.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "50",
       "attack": "50",
@@ -42665,13 +41726,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Lightningrod"
-        ],
-        "hidden": [
-          "Battle Armor"
-        ]
+        "normal": ["Rock Head", "Lightningrod"],
+        "hidden": ["Battle Armor"]
       },
       "classification": "lonely pokemon",
       "height": "1’04”",
@@ -42680,9 +41736,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "4",
       "entreeforestlevel": "10"
     }
@@ -42691,9 +41745,7 @@
     "id": "105",
     "name": "Marowak",
     "img": "http://img.pokemondb.net/artwork/marowak.jpg",
-    "type": [
-      "Ground"
-    ],
+    "type": ["Ground"],
     "stats": {
       "hp": "60",
       "attack": "80",
@@ -43171,13 +42223,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Lightningrod"
-        ],
-        "hidden": [
-          "Battle Armor"
-        ]
+        "normal": ["Rock Head", "Lightningrod"],
+        "hidden": ["Battle Armor"]
       },
       "classification": "bone keeper pokemon",
       "height": "3’03”",
@@ -43186,9 +42233,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "4",
       "entreeforestlevel": "28"
     }
@@ -43197,9 +42242,7 @@
     "id": "106",
     "name": "Hitmonlee",
     "img": "http://img.pokemondb.net/artwork/hitmonlee.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "50",
       "attack": "120",
@@ -43619,13 +42662,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Limber",
-          "Reckless"
-        ],
-        "hidden": [
-          "Unburden"
-        ]
+        "normal": ["Limber", "Reckless"],
+        "hidden": ["Unburden"]
       },
       "classification": "kicking pokemon",
       "height": "4’11”",
@@ -43634,9 +42672,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "84",
       "entreeforestlevel": "20"
     }
@@ -43645,9 +42681,7 @@
     "id": "107",
     "name": "Hitmonchan",
     "img": "http://img.pokemondb.net/artwork/hitmonchan.jpg",
-    "type": [
-      "Fighting"
-    ],
+    "type": ["Fighting"],
     "stats": {
       "hp": "50",
       "attack": "105",
@@ -44047,13 +43081,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Keen Eye",
-          "Iron Fist"
-        ],
-        "hidden": [
-          "Inner Focus"
-        ]
+        "normal": ["Keen Eye", "Iron Fist"],
+        "hidden": ["Inner Focus"]
       },
       "classification": "punching pokemon",
       "height": "4’07”",
@@ -44062,9 +43091,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Defense Point(s)"],
       "fleeflag": "39",
       "entreeforestlevel": "20"
     }
@@ -44073,9 +43100,7 @@
     "id": "108",
     "name": "Lickitung",
     "img": "http://img.pokemondb.net/artwork/lickitung.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "90",
       "attack": "55",
@@ -44559,13 +43584,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Own Tempo",
-          "Oblivious"
-        ],
-        "hidden": [
-          "Cloud Nine"
-        ]
+        "normal": ["Own Tempo", "Oblivious"],
+        "hidden": ["Cloud Nine"]
       },
       "classification": "licking pokemon",
       "height": "3’11”",
@@ -44574,9 +43594,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "13",
       "entreeforestlevel": "10"
     }
@@ -44585,9 +43603,7 @@
     "id": "109",
     "name": "Koffing",
     "img": "http://img.pokemondb.net/artwork/koffing.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "40",
       "attack": "65",
@@ -44940,9 +43956,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Levitate"
-        ],
+        "normal": ["Levitate"],
         "hidden": []
       },
       "classification": "poison gas pokemon",
@@ -44952,9 +43966,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "10"
     }
@@ -44963,9 +43975,7 @@
     "id": "110",
     "name": "Weezing",
     "img": "http://img.pokemondb.net/artwork/weezing.jpg",
-    "type": [
-      "Poison"
-    ],
+    "type": ["Poison"],
     "stats": {
       "hp": "65",
       "attack": "90",
@@ -45338,9 +44348,7 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Levitate"
-        ],
+        "normal": ["Levitate"],
         "hidden": []
       },
       "classification": "poison gas pokemon",
@@ -45350,9 +44358,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "35"
     }
@@ -45361,10 +44367,7 @@
     "id": "111",
     "name": "Rhyhorn",
     "img": "http://img.pokemondb.net/artwork/rhyhorn.jpg",
-    "type": [
-      "Ground",
-      "Rock"
-    ],
+    "type": ["Ground", "Rock"],
     "stats": {
       "hp": "80",
       "attack": "85",
@@ -45803,13 +44806,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Lightningrod",
-          "Rock Head"
-        ],
-        "hidden": [
-          "Reckless"
-        ]
+        "normal": ["Lightningrod", "Rock Head"],
+        "hidden": ["Reckless"]
       },
       "classification": "spikes pokemon",
       "height": "3’03”",
@@ -45818,9 +44816,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "120",
       "entreeforestlevel": "10"
     }
@@ -45829,10 +44825,7 @@
     "id": "112",
     "name": "Rhydon",
     "img": "http://img.pokemondb.net/artwork/rhydon.jpg",
-    "type": [
-      "Ground",
-      "Rock"
-    ],
+    "type": ["Ground", "Rock"],
     "stats": {
       "hp": "105",
       "attack": "130",
@@ -46392,13 +45385,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Lightningrod",
-          "Rock Head"
-        ],
-        "hidden": [
-          "Reckless"
-        ]
+        "normal": ["Lightningrod", "Rock Head"],
+        "hidden": ["Reckless"]
       },
       "classification": "drill pokemon",
       "height": "6’03”",
@@ -46407,9 +45395,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "120",
       "entreeforestlevel": "42"
     }
@@ -46418,9 +45404,7 @@
     "id": "113",
     "name": "Chansey",
     "img": "http://img.pokemondb.net/artwork/chansey.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "250",
       "attack": "5",
@@ -46955,13 +45939,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Natural Cure",
-          "Serene Grace"
-        ],
-        "hidden": [
-          "Healer"
-        ]
+        "normal": ["Natural Cure", "Serene Grace"],
+        "hidden": ["Healer"]
       },
       "classification": "egg pokemon",
       "height": "3’07”",
@@ -46970,9 +45949,7 @@
       "eggsteps": "10240",
       "expgrowth": "800000",
       "happiness": "140",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "131",
       "entreeforestlevel": "10"
     }
@@ -46981,9 +45958,7 @@
     "id": "114",
     "name": "Tangela",
     "img": "http://img.pokemondb.net/artwork/tangela.jpg",
-    "type": [
-      "Grass"
-    ],
+    "type": ["Grass"],
     "stats": {
       "hp": "65",
       "attack": "55",
@@ -47355,13 +46330,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Chlorophyll",
-          "Leaf Guard"
-        ],
-        "hidden": [
-          "Regenerator"
-        ]
+        "normal": ["Chlorophyll", "Leaf Guard"],
+        "hidden": ["Regenerator"]
       },
       "classification": "vine pokemon",
       "height": "3’03”",
@@ -47370,9 +46340,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "144",
       "entreeforestlevel": "10"
     }
@@ -47381,9 +46349,7 @@
     "id": "115",
     "name": "Kangaskhan",
     "img": "http://img.pokemondb.net/artwork/kangaskhan.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "105",
       "attack": "95",
@@ -47901,13 +46867,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Early Bird",
-          "Scrappy"
-        ],
-        "hidden": [
-          "Inner Focus"
-        ]
+        "normal": ["Early Bird", "Scrappy"],
+        "hidden": ["Inner Focus"]
       },
       "classification": "parent pokemon",
       "height": "7’03”",
@@ -47916,9 +46877,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "39",
       "entreeforestlevel": "10"
     }
@@ -47927,9 +46886,7 @@
     "id": "116",
     "name": "Horsea",
     "img": "http://img.pokemondb.net/artwork/horsea.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "30",
       "attack": "40",
@@ -48243,13 +47200,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Sniper"
-        ],
-        "hidden": [
-          "Damp"
-        ]
+        "normal": ["Swift Swim", "Sniper"],
+        "hidden": ["Damp"]
       },
       "classification": "dragon pokemon",
       "height": "1’04”",
@@ -48258,9 +47210,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "6",
       "entreeforestlevel": "10"
     }
@@ -48269,9 +47219,7 @@
     "id": "117",
     "name": "Seadra",
     "img": "http://img.pokemondb.net/artwork/seadra.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "55",
       "attack": "65",
@@ -48610,13 +47558,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Poison Point",
-          "Sniper"
-        ],
-        "hidden": [
-          "Damp"
-        ]
+        "normal": ["Poison Point", "Sniper"],
+        "hidden": ["Damp"]
       },
       "classification": "dragon pokemon",
       "height": "3’11”",
@@ -48625,10 +47568,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)",
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)", "1 Sp. Attack Point(s)"],
       "fleeflag": "6",
       "entreeforestlevel": "32"
     }
@@ -48637,9 +47577,7 @@
     "id": "118",
     "name": "Goldeen",
     "img": "http://img.pokemondb.net/artwork/goldeen.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": 45,
       "attack": "67",
@@ -48955,13 +47893,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Water Veil"
-        ],
-        "hidden": [
-          "Lightningrod"
-        ]
+        "normal": ["Swift Swim", "Water Veil"],
+        "hidden": ["Lightningrod"]
       },
       "classification": "goldfish pokemon",
       "height": "2’00”",
@@ -48970,9 +47903,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "31",
       "entreeforestlevel": "10"
     }
@@ -48981,9 +47912,7 @@
     "id": "119",
     "name": "Seaking",
     "img": "http://img.pokemondb.net/artwork/seaking.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "80",
       "attack": "92",
@@ -49319,13 +48248,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Water Veil"
-        ],
-        "hidden": [
-          "Lightningrod"
-        ]
+        "normal": ["Swift Swim", "Water Veil"],
+        "hidden": ["Lightningrod"]
       },
       "classification": "goldfish pokemon",
       "height": "4’03”",
@@ -49334,9 +48258,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "31",
       "entreeforestlevel": "33"
     }
@@ -49345,9 +48267,7 @@
     "id": "120",
     "name": "Staryu",
     "img": "http://img.pokemondb.net/artwork/staryu.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "30",
       "attack": 45,
@@ -49687,13 +48607,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Illuminate",
-          "Natural Cure"
-        ],
-        "hidden": [
-          "Analytic"
-        ]
+        "normal": ["Illuminate", "Natural Cure"],
+        "hidden": ["Analytic"]
       },
       "classification": "starshape pokemon",
       "height": "2’07”",
@@ -49702,9 +48617,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "148",
       "entreeforestlevel": "10"
     }
@@ -49713,10 +48626,7 @@
     "id": "121",
     "name": "Starmie",
     "img": "http://img.pokemondb.net/artwork/starmie.jpg",
-    "type": [
-      "Water",
-      "Psychic"
-    ],
+    "type": ["Water", "Psychic"],
     "stats": {
       "hp": "60",
       "attack": "75",
@@ -50061,13 +48971,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Illuminate",
-          "Natural Cure"
-        ],
-        "hidden": [
-          "Analytic"
-        ]
+        "normal": ["Illuminate", "Natural Cure"],
+        "hidden": ["Analytic"]
       },
       "classification": "mysterious pokemon",
       "height": "3’07”",
@@ -50076,9 +48981,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "148",
       "entreeforestlevel": "10"
     }
@@ -50087,9 +48990,7 @@
     "id": "122",
     "name": "Mr. Mime",
     "img": "http://img.pokemondb.net/artwork/mr. mime.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "40",
       "attack": 45,
@@ -50627,13 +49528,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Soundproof",
-          "Filter"
-        ],
-        "hidden": [
-          "Technician"
-        ]
+        "normal": ["Soundproof", "Filter"],
+        "hidden": ["Technician"]
       },
       "classification": "barrier pokemon",
       "height": "4’03”",
@@ -50642,9 +49538,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["2 Sp. Defense Point(s)"],
       "fleeflag": "101",
       "entreeforestlevel": "10"
     }
@@ -50653,10 +49547,7 @@
     "id": "123",
     "name": "Scyther",
     "img": "http://img.pokemondb.net/artwork/scyther.jpg",
-    "type": [
-      "Bug",
-      "Flying"
-    ],
+    "type": ["Bug", "Flying"],
     "stats": {
       "hp": "70",
       "attack": "110",
@@ -51031,13 +49922,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swarm",
-          "Technician"
-        ],
-        "hidden": [
-          "Steadfast"
-        ]
+        "normal": ["Swarm", "Technician"],
+        "hidden": ["Steadfast"]
       },
       "classification": "mantis pokemon",
       "height": "4’11”",
@@ -51046,9 +49932,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "80",
       "entreeforestlevel": "10"
     }
@@ -51057,10 +49941,7 @@
     "id": "124",
     "name": "Jynx",
     "img": "http://img.pokemondb.net/artwork/jynx.jpg",
-    "type": [
-      "Ice",
-      "Psychic"
-    ],
+    "type": ["Ice", "Psychic"],
     "stats": {
       "hp": "65",
       "attack": "50",
@@ -51543,13 +50424,8 @@
         "female": "100"
       },
       "abilities": {
-        "normal": [
-          "Oblivious",
-          "Forewarn"
-        ],
-        "hidden": [
-          "Dry Skin"
-        ]
+        "normal": ["Oblivious", "Forewarn"],
+        "hidden": ["Dry Skin"]
       },
       "classification": "humanshape pokemon",
       "height": "4’07”",
@@ -51558,9 +50434,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "87",
       "entreeforestlevel": "30"
     }
@@ -51569,9 +50443,7 @@
     "id": "125",
     "name": "Electabuzz",
     "img": "http://img.pokemondb.net/artwork/electabuzz.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "65",
       "attack": "83",
@@ -51965,12 +50837,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Static"
-        ],
-        "hidden": [
-          "Vital Spirit"
-        ]
+        "normal": ["Static"],
+        "hidden": ["Vital Spirit"]
       },
       "classification": "electric pokemon",
       "height": "3’07”",
@@ -51979,9 +50847,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "72",
       "entreeforestlevel": "30"
     }
@@ -51990,9 +50856,7 @@
     "id": "126",
     "name": "Magmar",
     "img": "http://img.pokemondb.net/artwork/magmar.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "65",
       "attack": "95",
@@ -52376,12 +51240,8 @@
         "female": "25"
       },
       "abilities": {
-        "normal": [
-          "Flame Body"
-        ],
-        "hidden": [
-          "Vital Spirit"
-        ]
+        "normal": ["Flame Body"],
+        "hidden": ["Vital Spirit"]
       },
       "classification": "spitfire pokemon",
       "height": "4’03”",
@@ -52390,9 +51250,7 @@
       "eggsteps": "6400",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["2 Sp. Attack Point(s)"],
       "fleeflag": "72",
       "entreeforestlevel": "30"
     }
@@ -52401,9 +51259,7 @@
     "id": "127",
     "name": "Pinsir",
     "img": "http://img.pokemondb.net/artwork/pinsir.jpg",
-    "type": [
-      "Bug"
-    ],
+    "type": ["Bug"],
     "stats": {
       "hp": "65",
       "attack": "125",
@@ -52797,13 +51653,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Hyper Cutter",
-          "Mold Breaker"
-        ],
-        "hidden": [
-          "Moxie"
-        ]
+        "normal": ["Hyper Cutter", "Mold Breaker"],
+        "hidden": ["Moxie"]
       },
       "classification": "stagbeetle pokemon",
       "height": "4’11”",
@@ -52812,9 +51663,7 @@
       "eggsteps": "6400",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "153",
       "entreeforestlevel": "10"
     }
@@ -52823,9 +51672,7 @@
     "id": "128",
     "name": "Tauros",
     "img": "http://img.pokemondb.net/artwork/tauros.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "75",
       "attack": "100",
@@ -53220,13 +52067,8 @@
         "female": "0"
       },
       "abilities": {
-        "normal": [
-          "Intimidate",
-          "Anger Point"
-        ],
-        "hidden": [
-          "Sheer Force"
-        ]
+        "normal": ["Intimidate", "Anger Point"],
+        "hidden": ["Sheer Force"]
       },
       "classification": "wild bull pokemon",
       "height": "4’07”",
@@ -53235,10 +52077,7 @@
       "eggsteps": "5120",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Attack Point(s)",
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)", "1 Speed Point(s)"],
       "fleeflag": "125",
       "entreeforestlevel": "10"
     }
@@ -53247,9 +52086,7 @@
     "id": "129",
     "name": "Magikarp",
     "img": "http://img.pokemondb.net/artwork/magikarp.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "20",
       "attack": "10",
@@ -53311,12 +52148,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim"
-        ],
-        "hidden": [
-          "Rattled"
-        ]
+        "normal": ["Swift Swim"],
+        "hidden": ["Rattled"]
       },
       "classification": "fish pokemon",
       "height": "2’11”",
@@ -53325,9 +52158,7 @@
       "eggsteps": "1280",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "1 Speed Point(s)"
-      ],
+      "evpoints": ["1 Speed Point(s)"],
       "fleeflag": "155",
       "entreeforestlevel": "10"
     }
@@ -53336,10 +52167,7 @@
     "id": "130",
     "name": "Gyarados",
     "img": "http://img.pokemondb.net/artwork/gyarados.jpg",
-    "type": [
-      "Water",
-      "Flying"
-    ],
+    "type": ["Water", "Flying"],
     "stats": {
       "hp": "95",
       "attack": "125",
@@ -53721,12 +52549,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Intimidate"
-        ],
-        "hidden": [
-          "Moxie"
-        ]
+        "normal": ["Intimidate"],
+        "hidden": ["Moxie"]
       },
       "classification": "atrocious pokemon",
       "height": "21’04”",
@@ -53735,9 +52559,7 @@
       "eggsteps": "1280",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "153",
       "entreeforestlevel": "20"
     }
@@ -53746,10 +52568,7 @@
     "id": "131",
     "name": "Lapras",
     "img": "http://img.pokemondb.net/artwork/lapras.jpg",
-    "type": [
-      "Water",
-      "Ice"
-    ],
+    "type": ["Water", "Ice"],
     "stats": {
       "hp": "130",
       "attack": "85",
@@ -54161,13 +52980,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Water Absorb",
-          "Shell Armor"
-        ],
-        "hidden": [
-          "Hydration"
-        ]
+        "normal": ["Water Absorb", "Shell Armor"],
+        "hidden": ["Hydration"]
       },
       "classification": "transport pokemon",
       "height": "8’02”",
@@ -54176,9 +52990,7 @@
       "eggsteps": "10240",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "93",
       "entreeforestlevel": "10"
     }
@@ -54187,9 +52999,7 @@
     "id": "132",
     "name": "Ditto",
     "img": "http://img.pokemondb.net/artwork/ditto.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "48",
       "attack": "48",
@@ -54236,12 +53046,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Limber"
-        ],
-        "hidden": [
-          "Imposter"
-        ]
+        "normal": ["Limber"],
+        "hidden": ["Imposter"]
       },
       "classification": "transform pokemon",
       "height": "1’00”",
@@ -54250,9 +53056,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 HP Point(s)"
-      ],
+      "evpoints": ["1 HP Point(s)"],
       "fleeflag": "150",
       "entreeforestlevel": "10"
     }
@@ -54261,9 +53065,7 @@
     "id": "133",
     "name": "Eevee",
     "img": "http://img.pokemondb.net/artwork/eevee.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "55",
       "attack": "55",
@@ -54558,13 +53360,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Run Away",
-          "Adaptability"
-        ],
-        "hidden": [
-          "Anticipation"
-        ]
+        "normal": ["Run Away", "Adaptability"],
+        "hidden": ["Anticipation"]
       },
       "classification": "evolution pokemon",
       "height": "1’00”",
@@ -54573,9 +53370,7 @@
       "eggsteps": "8960",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["1 Sp. Defense Point(s)"],
       "fleeflag": "107",
       "entreeforestlevel": "10"
     }
@@ -54584,9 +53379,7 @@
     "id": "134",
     "name": "Vaporeon",
     "img": "http://img.pokemondb.net/artwork/vaporeon.jpg",
-    "type": [
-      "Water"
-    ],
+    "type": ["Water"],
     "stats": {
       "hp": "130",
       "attack": "65",
@@ -54980,12 +53773,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Water Absorb"
-        ],
-        "hidden": [
-          "Hydration"
-        ]
+        "normal": ["Water Absorb"],
+        "hidden": ["Hydration"]
       },
       "classification": "bubble jet pokemon",
       "height": "3’03”",
@@ -54994,9 +53783,7 @@
       "eggsteps": "8960",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "93",
       "entreeforestlevel": "10"
     }
@@ -55005,9 +53792,7 @@
     "id": "135",
     "name": "Jolteon",
     "img": "http://img.pokemondb.net/artwork/jolteon.jpg",
-    "type": [
-      "Electric"
-    ],
+    "type": ["Electric"],
     "stats": {
       "hp": "65",
       "attack": "65",
@@ -55394,12 +54179,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Volt Absorb"
-        ],
-        "hidden": [
-          "Quick Feet"
-        ]
+        "normal": ["Volt Absorb"],
+        "hidden": ["Quick Feet"]
       },
       "classification": "lightning pokemon",
       "height": "2’07”",
@@ -55408,9 +54189,7 @@
       "eggsteps": "8960",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "95",
       "entreeforestlevel": "10"
     }
@@ -55419,9 +54198,7 @@
     "id": "136",
     "name": "Flareon",
     "img": "http://img.pokemondb.net/artwork/flareon.jpg",
-    "type": [
-      "Fire"
-    ],
+    "type": ["Fire"],
     "stats": {
       "hp": "65",
       "attack": "130",
@@ -55794,12 +54571,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Flash Fire"
-        ],
-        "hidden": [
-          "Guts"
-        ]
+        "normal": ["Flash Fire"],
+        "hidden": ["Guts"]
       },
       "classification": "flame pokemon",
       "height": "2’11”",
@@ -55808,9 +54581,7 @@
       "eggsteps": "8960",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "62",
       "entreeforestlevel": "10"
     }
@@ -55819,9 +54590,7 @@
     "id": "137",
     "name": "Porygon",
     "img": "http://img.pokemondb.net/artwork/porygon.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "65",
       "attack": "60",
@@ -56167,13 +54936,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Trace",
-          "Download"
-        ],
-        "hidden": [
-          "Analytic"
-        ]
+        "normal": ["Trace", "Download"],
+        "hidden": ["Analytic"]
       },
       "classification": "virtual pokemon",
       "height": "2’07”",
@@ -56182,9 +54946,7 @@
       "eggsteps": "5120",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["1 Sp. Attack Point(s)"],
       "fleeflag": "148",
       "entreeforestlevel": "10"
     }
@@ -56193,10 +54955,7 @@
     "id": "138",
     "name": "Omanyte",
     "img": "http://img.pokemondb.net/artwork/omanyte.jpg",
-    "type": [
-      "Rock",
-      "Water"
-    ],
+    "type": ["Rock", "Water"],
     "stats": {
       "hp": "35",
       "attack": "40",
@@ -56559,13 +55318,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Shell Armor"
-        ],
-        "hidden": [
-          "Weak Armor"
-        ]
+        "normal": ["Swift Swim", "Shell Armor"],
+        "hidden": ["Weak Armor"]
       },
       "classification": "spiral pokemon",
       "height": "1’04”",
@@ -56574,9 +55328,7 @@
       "eggsteps": "7680",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "133",
       "entreeforestlevel": "10"
     }
@@ -56585,10 +55337,7 @@
     "id": "139",
     "name": "Omastar",
     "img": "http://img.pokemondb.net/artwork/omastar.jpg",
-    "type": [
-      "Rock",
-      "Water"
-    ],
+    "type": ["Rock", "Water"],
     "stats": {
       "hp": "70",
       "attack": "60",
@@ -56980,13 +55729,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Shell Armor"
-        ],
-        "hidden": [
-          "Weak Armor"
-        ]
+        "normal": ["Swift Swim", "Shell Armor"],
+        "hidden": ["Weak Armor"]
       },
       "classification": "spiral pokemon",
       "height": "3’03”",
@@ -56995,9 +55739,7 @@
       "eggsteps": "7680",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Defense Point(s)"
-      ],
+      "evpoints": ["2 Defense Point(s)"],
       "fleeflag": "133",
       "entreeforestlevel": "40"
     }
@@ -57006,10 +55748,7 @@
     "id": "140",
     "name": "Kabuto",
     "img": "http://img.pokemondb.net/artwork/kabuto.jpg",
-    "type": [
-      "Rock",
-      "Water"
-    ],
+    "type": ["Rock", "Water"],
     "stats": {
       "hp": "30",
       "attack": "80",
@@ -57366,13 +56105,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Battle Armor"
-        ],
-        "hidden": [
-          "Weak Armor"
-        ]
+        "normal": ["Swift Swim", "Battle Armor"],
+        "hidden": ["Weak Armor"]
       },
       "classification": "shellfish pokemon",
       "height": "1’08”",
@@ -57381,9 +56115,7 @@
       "eggsteps": "7680",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "1 Defense Point(s)"
-      ],
+      "evpoints": ["1 Defense Point(s)"],
       "fleeflag": "133",
       "entreeforestlevel": "10"
     }
@@ -57392,10 +56124,7 @@
     "id": "141",
     "name": "Kabutops",
     "img": "http://img.pokemondb.net/artwork/kabutops.jpg",
-    "type": [
-      "Rock",
-      "Water"
-    ],
+    "type": ["Rock", "Water"],
     "stats": {
       "hp": "60",
       "attack": "115",
@@ -57846,13 +56575,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Swift Swim",
-          "Battle Armor"
-        ],
-        "hidden": [
-          "Weak Armor"
-        ]
+        "normal": ["Swift Swim", "Battle Armor"],
+        "hidden": ["Weak Armor"]
       },
       "classification": "shellfish pokemon",
       "height": "4’03”",
@@ -57861,9 +56585,7 @@
       "eggsteps": "7680",
       "expgrowth": "1000000",
       "happiness": "70",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "133",
       "entreeforestlevel": "40"
     }
@@ -57872,10 +56594,7 @@
     "id": "142",
     "name": "Aerodactyl",
     "img": "http://img.pokemondb.net/artwork/aerodactyl.jpg",
-    "type": [
-      "Rock",
-      "Flying"
-    ],
+    "type": ["Rock", "Flying"],
     "stats": {
       "hp": "80",
       "attack": "105",
@@ -58320,13 +57039,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Rock Head",
-          "Pressure"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Rock Head", "Pressure"],
+        "hidden": ["Unnerve"]
       },
       "classification": "fossil pokemon",
       "height": "5’11”",
@@ -58335,9 +57049,7 @@
       "eggsteps": "8960",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 Speed Point(s)"
-      ],
+      "evpoints": ["2 Speed Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "10"
     }
@@ -58346,9 +57058,7 @@
     "id": "143",
     "name": "Snorlax",
     "img": "http://img.pokemondb.net/artwork/snorlax.jpg",
-    "type": [
-      "Normal"
-    ],
+    "type": ["Normal"],
     "stats": {
       "hp": "160",
       "attack": "110",
@@ -58838,13 +57548,8 @@
         "female": "12.5"
       },
       "abilities": {
-        "normal": [
-          "Immunity",
-          "Thick Fat"
-        ],
-        "hidden": [
-          "Gluttony"
-        ]
+        "normal": ["Immunity", "Thick Fat"],
+        "hidden": ["Gluttony"]
       },
       "classification": "sleeping pokemon",
       "height": "6’11”",
@@ -58853,9 +57558,7 @@
       "eggsteps": "10240",
       "expgrowth": "1250000",
       "happiness": "70",
-      "evpoints": [
-        "2 HP Point(s)"
-      ],
+      "evpoints": ["2 HP Point(s)"],
       "fleeflag": "82",
       "entreeforestlevel": "10"
     }
@@ -58864,10 +57567,7 @@
     "id": "144",
     "name": "Articuno",
     "img": "http://img.pokemondb.net/artwork/articuno.jpg",
-    "type": [
-      "Ice",
-      "Flying"
-    ],
+    "type": ["Ice", "Flying"],
     "stats": {
       "hp": "90",
       "attack": "85",
@@ -59209,12 +57909,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Pressure"
-        ],
-        "hidden": [
-          "Snow Cloak"
-        ]
+        "normal": ["Pressure"],
+        "hidden": ["Snow Cloak"]
       },
       "classification": "freeze pokemon",
       "height": "5’07”",
@@ -59223,9 +57919,7 @@
       "eggsteps": "20480",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "3 Sp. Defense Point(s)"
-      ],
+      "evpoints": ["3 Sp. Defense Point(s)"],
       "fleeflag": "81",
       "entreeforestlevel": "50"
     }
@@ -59234,10 +57928,7 @@
     "id": "145",
     "name": "Zapdos",
     "img": "http://img.pokemondb.net/artwork/zapdos.jpg",
-    "type": [
-      "Electric",
-      "Flying"
-    ],
+    "type": ["Electric", "Flying"],
     "stats": {
       "hp": "90",
       "attack": "90",
@@ -59594,12 +58285,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Pressure"
-        ],
-        "hidden": [
-          "Lightningrod"
-        ]
+        "normal": ["Pressure"],
+        "hidden": ["Lightningrod"]
       },
       "classification": "electric pokemon",
       "height": "5’03”",
@@ -59608,9 +58295,7 @@
       "eggsteps": "20480",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "31",
       "entreeforestlevel": "50"
     }
@@ -59619,10 +58304,7 @@
     "id": "146",
     "name": "Moltres",
     "img": "http://img.pokemondb.net/artwork/moltres.jpg",
-    "type": [
-      "Fire",
-      "Flying"
-    ],
+    "type": ["Fire", "Flying"],
     "stats": {
       "hp": "90",
       "attack": "100",
@@ -59955,12 +58637,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Pressure"
-        ],
-        "hidden": [
-          "Flame Body"
-        ]
+        "normal": ["Pressure"],
+        "hidden": ["Flame Body"]
       },
       "classification": "flame pokemon",
       "height": "6’07”",
@@ -59969,9 +58647,7 @@
       "eggsteps": "20480",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "49",
       "entreeforestlevel": "50"
     }
@@ -59980,9 +58656,7 @@
     "id": "147",
     "name": "Dratini",
     "img": "http://img.pokemondb.net/artwork/dratini.jpg",
-    "type": [
-      "Dragon"
-    ],
+    "type": ["Dragon"],
     "stats": {
       "hp": "41",
       "attack": "64",
@@ -60347,12 +59021,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shed Skin"
-        ],
-        "hidden": [
-          "Marvel Scale"
-        ]
+        "normal": ["Shed Skin"],
+        "hidden": ["Marvel Scale"]
       },
       "classification": "dragon pokemon",
       "height": "5’11”",
@@ -60361,9 +59031,7 @@
       "eggsteps": "10240",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "1 Attack Point(s)"
-      ],
+      "evpoints": ["1 Attack Point(s)"],
       "fleeflag": "63",
       "entreeforestlevel": "10"
     }
@@ -60372,9 +59040,7 @@
     "id": "148",
     "name": "Dragonair",
     "img": "http://img.pokemondb.net/artwork/dragonair.jpg",
-    "type": [
-      "Dragon"
-    ],
+    "type": ["Dragon"],
     "stats": {
       "hp": "61",
       "attack": "84",
@@ -60749,12 +59415,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Shed Skin"
-        ],
-        "hidden": [
-          "Marvel Scale"
-        ]
+        "normal": ["Shed Skin"],
+        "hidden": ["Marvel Scale"]
       },
       "classification": "dragon pokemon",
       "height": "13’01”",
@@ -60763,9 +59425,7 @@
       "eggsteps": "10240",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "2 Attack Point(s)"
-      ],
+      "evpoints": ["2 Attack Point(s)"],
       "fleeflag": "63",
       "entreeforestlevel": "30"
     }
@@ -60774,10 +59434,7 @@
     "id": "149",
     "name": "Dragonite",
     "img": "http://img.pokemondb.net/artwork/dragonite.jpg",
-    "type": [
-      "Dragon",
-      "Flying"
-    ],
+    "type": ["Dragon", "Flying"],
     "stats": {
       "hp": "91",
       "attack": "134",
@@ -61333,12 +59990,8 @@
         "female": "50"
       },
       "abilities": {
-        "normal": [
-          "Inner Focus"
-        ],
-        "hidden": [
-          "Multiscale"
-        ]
+        "normal": ["Inner Focus"],
+        "hidden": ["Multiscale"]
       },
       "classification": "dragon pokemon",
       "height": "7’03”",
@@ -61347,9 +60000,7 @@
       "eggsteps": "10240",
       "expgrowth": "1250000",
       "happiness": "35",
-      "evpoints": [
-        "3 Attack Point(s)"
-      ],
+      "evpoints": ["3 Attack Point(s)"],
       "fleeflag": "136",
       "entreeforestlevel": "55"
     }
@@ -61358,9 +60009,7 @@
     "id": "150",
     "name": "Mewtwo",
     "img": "http://img.pokemondb.net/artwork/mewtwo.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "106",
       "attack": "110",
@@ -61945,12 +60594,8 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Pressure"
-        ],
-        "hidden": [
-          "Unnerve"
-        ]
+        "normal": ["Pressure"],
+        "hidden": ["Unnerve"]
       },
       "classification": "genetic pokemon",
       "height": "6’07”",
@@ -61959,9 +60604,7 @@
       "eggsteps": "30720",
       "expgrowth": "1250000",
       "happiness": "0",
-      "evpoints": [
-        "3 Sp. Attack Point(s)"
-      ],
+      "evpoints": ["3 Sp. Attack Point(s)"],
       "fleeflag": "127",
       "entreeforestlevel": "70"
     }
@@ -61970,9 +60613,7 @@
     "id": "151",
     "name": "Mew",
     "img": "http://img.pokemondb.net/artwork/mew.jpg",
-    "type": [
-      "Psychic"
-    ],
+    "type": ["Psychic"],
     "stats": {
       "hp": "100",
       "attack": "100",
@@ -62946,9 +61587,7 @@
         "female": ""
       },
       "abilities": {
-        "normal": [
-          "Synchronize"
-        ],
+        "normal": ["Synchronize"],
         "hidden": []
       },
       "classification": "new specie pokemon",
@@ -62958,9 +61597,7 @@
       "eggsteps": "30720",
       "expgrowth": "1059860",
       "happiness": "100",
-      "evpoints": [
-        "3 HP Point(s)"
-      ],
+      "evpoints": ["3 HP Point(s)"],
       "fleeflag": "0",
       "entreeforestlevel": "30"
     }

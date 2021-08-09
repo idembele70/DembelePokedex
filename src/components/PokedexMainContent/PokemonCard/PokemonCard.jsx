@@ -11,21 +11,45 @@ import {
 } from "@material-ui/core"
 import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
-import React from "react"
-import colorType from "../../../data/colorType.json"
+import React, { useState } from "react"
 import useStyles from "./styles"
+import { ToggleLike } from "../../../services"
 
-function PokemonCard({ id, name, firstType, secondType, image }) {
+function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
+  const COLORTYPE = {
+    normal: "#CACACA",
+    electric: "#FFE175",
+    grass: "#B4FE7B",
+    poison: "#BF8CD1",
+    bug: "#D1E16F",
+    ghost: "#805594",
+    fire: "#FF8A8A",
+    water: "#88D1FB",
+    ground: "#CA9F5E",
+    rock: "#898373",
+    ice: "#C6EAFF",
+    fighting: "#C6EAFF",
+    steel: "#E4E4E4",
+    psychic: "#FFB7FC",
+    flying: "#5F9FFF",
+    dragon: "#C699FF"
+  }
   const classes = useStyles()
   const firstTypeColor = firstType
-    ? colorType[firstType.toLowerCase()]
-    : colorType.normal
+    ? COLORTYPE[firstType.toLowerCase()]
+    : COLORTYPE.normal
   const secondTypeColor = secondType
-    ? colorType[secondType.toLowerCase()]
-    : colorType.normal
+    ? COLORTYPE[secondType.toLowerCase()]
+    : COLORTYPE.normal
+  const [like, setLike] = useState(isLiked)
   const onerror = (e) => {
     e.target.onerror = null
     e.target.src = "img/assets/404-group.png"
+  }
+
+  const handleLike = (e) => {
+    setLike(e.target.checked)
+    ToggleLike(id)
   }
   return (
     <Card variant="outlined" className={classes.root}>
@@ -67,6 +91,8 @@ function PokemonCard({ id, name, firstType, secondType, image }) {
             className={classes.likeBtn}
             control={
               <Checkbox
+                checked={like}
+                onChange={handleLike}
                 color="primary"
                 icon={<ThumbUpOutlined fontSize="small" />}
                 checkedIcon={<ThumbUp fontSize="small" />}
@@ -83,8 +109,13 @@ function PokemonCard({ id, name, firstType, secondType, image }) {
 PokemonCard.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  firstType: PropTypes.string.isRequired,
-  secondType: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired
+  firstType: PropTypes.string,
+  secondType: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  isLiked: PropTypes.bool.isRequired
+}
+PokemonCard.defaultProps = {
+  firstType: "",
+  secondType: ""
 }
 export default PokemonCard

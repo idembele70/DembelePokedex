@@ -1,5 +1,6 @@
 import { Box, Button } from "@material-ui/core"
 import React from "react"
+import { NavLink } from "react-router-dom"
 import useStyles from "./styles"
 
 function Navbar() {
@@ -13,12 +14,24 @@ function Navbar() {
       mt={9}
       justifyContent="space-between"
     >
-      <Button variant="text" className={`${classes.title} ${classes.pokedex}`}>
-        POKEDEX
-      </Button>
-      <Button variant="text" className={`${classes.title} ${classes.liked}`}>
-        LIKED
-      </Button>
+      <NavLink
+        activeClassName={classes.current}
+        to="/pokedex"
+        className={`${classes.link} ${classes.pokedex}`}
+      >
+        <Button variant="text" className={`${classes.title}`}>
+          POKEDEX
+        </Button>
+      </NavLink>
+      <NavLink
+        activeClassName={classes.current}
+        to="/liked"
+        className={`${classes.link} ${classes.liked}`}
+      >
+        <Button variant="text" className={`${classes.title}`}>
+          LIKED
+        </Button>
+      </NavLink>
     </Box>
   )
 }

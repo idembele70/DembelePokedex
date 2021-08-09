@@ -1,14 +1,13 @@
 import { makeStyles } from "@material-ui/core"
 import ArrowDropDownCircleRoundedIcon from "@material-ui/icons/ArrowDropDownCircleRounded"
 import PropTypes from "prop-types"
-import React, { useEffect, useState } from "react"
+import React, { useCallback, useEffect, useState } from "react"
 
 const useStyles = makeStyles({
   root: {
     transform: "rotate(180deg)",
     cursor: "pointer",
     position: "fixed",
-    transition: "1s",
     zIndex: 2,
     right: 10,
     bottom: 10
@@ -21,14 +20,14 @@ function ScrollToTop({ showBellow }) {
   const handleScrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
-  const onScroll = () => {
+  const onScroll = useCallback(() => {
     if (window.pageYOffset > showBellow) {
       setShow(true)
     } else setShow(false)
-  }
+  }, [showBellow])
   useEffect(() => {
     window.addEventListener("scroll", onScroll)
-  }, [])
+  }, [onScroll])
   return (
     show && (
       <ArrowDropDownCircleRoundedIcon
