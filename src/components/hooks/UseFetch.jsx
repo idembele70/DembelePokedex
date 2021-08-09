@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Grid } from "@material-ui/core"
-import PokemonCard from "../components/PokedexMainContent/PokemonCard/PokemonCard"
+import PokemonCard from "../tools/PokemonCard/PokemonCard"
 
 function useFetch(startLength) {
   const [pokemonsList, setPokemonsList] = useState([])

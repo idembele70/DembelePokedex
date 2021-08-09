@@ -1,9 +1,10 @@
 import { Grid, useMediaQuery, useTheme } from "@material-ui/core"
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import InfiniteScroll from "react-infinite-scroller"
-import UseFetch from "../../hooks/UseFetch"
-import PokemonSkeleton from "./PokemonSkeleton/PokemonSkeleton"
+import UseFetch from "../hooks/UseFetch"
+import PokemonSkeleton from "../tools/PokemonSkeleton/PokemonSkeleton"
 import useStyles from "./styles"
+import ScrollToTop from "../tools/ScrollToTop/ScrollToTop"
 
 function PokedexMainContent() {
   const classes = useStyles()
@@ -39,6 +40,7 @@ function PokedexMainContent() {
       loadMore={() => handleFetch(skeletonLength)}
       loader={displaySkeleton}
     >
+      <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
       <Grid
         container
         spacing={4}
@@ -53,3 +55,4 @@ function PokedexMainContent() {
 }
 
 export default PokedexMainContent
+

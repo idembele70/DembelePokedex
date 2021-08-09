@@ -1,6 +1,6 @@
 import { useMediaQuery, Grid, useTheme } from "@material-ui/core"
 import React, { useState } from "react"
-import PokemonSkeleton from "../PokedexMainContent/PokemonSkeleton/PokemonSkeleton"
+import { PokemonSkeleton } from "../tools"
 import useStyles from "./styles"
 import { GetAllLiked } from "../../services"
 
