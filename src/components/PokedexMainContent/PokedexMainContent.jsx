@@ -1,11 +1,11 @@
 import { Grid, useMediaQuery, useTheme } from "@material-ui/core"
 import React, { useEffect, useState, useRef } from "react"
 import InfiniteScroll from "react-infinite-scroller"
-import UseFetch from "../hooks/UseFetch"
+import useFetch from "../hooks/useFetch"
 import PokemonSkeleton from "../tools/PokemonSkeleton/PokemonSkeleton"
 import useStyles from "./styles"
 import ScrollToTop from "../tools/ScrollToTop/ScrollToTop"
-import UseLike from "../hooks/UseLike"
+import useLike from "../hooks/useLike"
 import { PokemonCard } from "../tools"
 
 function PokedexMainContent() {
@@ -14,8 +14,8 @@ function PokedexMainContent() {
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
   const [displayPokemons, setDisplayPokemons] = useState([])
   const skeletonLength = isSmallDisplay ? 6 : 12
-  const [PokemonDB, PokemonDBLength] = UseFetch()
-  const { GetLikeById } = UseLike()
+  const [PokemonDB, PokemonDBLength] = useFetch()
+  const { GetLikeById } = useLike()
   const isMounted = useRef(false)
   function handleFetch() {
     let maxLength = 0

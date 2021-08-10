@@ -4,8 +4,8 @@ function useFetch() {
   const [pokemonsList, setPokemonsList] = useState([])
 
   useEffect(() => {
-    const controller = new AbortController();
-    (async () => {
+    const controller = new AbortController()
+    ;(async () => {
       const response = await fetch("data/pokemons.json", {
         signal: controller.signal
       })

@@ -1,9 +1,7 @@
 import React from "react"
 
-function UseLike() {
-  const GetAllLiked = () => {
-    JSON.parse(localStorage.getItem("LikeDB"))
-  }
+function useLike() {
+  const GetAllLiked = () => JSON.parse(localStorage.getItem("LikeDB"))
 
   const GetLikeById = (itemId) => {
     if (localStorage.getItem("LikeDB")) {
@@ -32,4 +30,4 @@ function UseLike() {
   return { GetAllLiked, GetLikeById, ToggleLike }
 }
 
-export default UseLike
+export default useLike

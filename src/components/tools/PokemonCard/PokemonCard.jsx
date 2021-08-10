@@ -13,7 +13,7 @@ import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import useStyles from "./styles"
-import UseLike from "../../hooks/UseLike"
+import UseLike from "../../hooks/useLike"
 
 function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
   const COLORTYPE = {
