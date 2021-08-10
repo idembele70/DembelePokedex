@@ -11,19 +11,26 @@ function LikedPokemon() {
   const classes = useStyles()
   const theme = useTheme()
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
-  const [PokemonDB] = useFetch()
+  const skeletonLength = isSmallDisplay ? 6 : 12
+  const [PokemonDB] = useFetch(true)
   const { GetAllLiked, GetLikeById } = useLike()
   const LikeDB = GetAllLiked()
   const [displayPokemons, setDisplayPokemons] = useState([])
   const isMount = useRef(true)
-  const handleFetch = () => {
+  function handleFetch() {
+    let maxLength = 0
+    if (displayPokemons.length + skeletonLength < PokemonDB.length)
+      maxLength = displayPokemons.length + skeletonLength
+    else
+      maxLength =
+        displayPokemons.length + (PokemonDB.length - displayPokemons.length)
     if (PokemonDB && PokemonDB.length) {
-      PokemonDB.forEach(
-        ({ id, name, type, img }) =>
-          LikeDB.includes(id) &&
-          setDisplayPokemons((dt) => [
-            ...dt,
-            <Grid item key={id}>
+      const newData = PokemonDB.slice(displayPokemons.length, maxLength)
+      setDisplayPokemons((oldData) =>
+        oldData
+          ? [
+            ...oldData,
+            ...newData.map(({ id, name, type, img }) => (
               <PokemonCard
                 id={id}
                 firstType={type[0] || ""}
@@ -33,8 +40,9 @@ function LikedPokemon() {
                 key={id + Math.random()}
                 isLiked={GetLikeById(id)}
               />
-            </Grid>
-          ])
+            ))
+          ]
+          : [...newData]
       )
     }
   }
@@ -46,27 +54,37 @@ function LikedPokemon() {
       justifyContent="center"
       key="rootGrid2"
     >
-      {Array.from({ length: LikeDB.length }, () => (
-        <Grid item key={`loading${Math.random()}`}>
-          <PokemonSkeleton />
-        </Grid>
-      ))}
+      {Array.from(
+        {
+          length:
+            skeletonLength > LikeDB.length ? LikeDB.length : skeletonLength
+        },
+        () => (
+          <Grid item key={`loading${Math.random()}`}>
+            <PokemonSkeleton />
+          </Grid>
+        )
+      )}
     </Grid>
   ]
   useEffect(() => {
-    if (isMount.current) handleFetch()
+    if (isMount.current) {
+      handleFetch()
+    }
     return () => {
       isMount.current = false
     }
-  })
+  }, [])
   return (
     <>
       <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
       <InfiniteScroll
+        threshold={800}
         pageStart={0}
         hasMore={displayPokemons.length < LikeDB.length}
         loadMore={() => {
-          if (isMount.current) handleFetch()
+          if (isSmallDisplay) handleFetch(true)
+          if (isMount.current) handleFetch(true)
         }}
         loader={displaySkeleton}
       >
@@ -85,4 +103,3 @@ function LikedPokemon() {
 }
 
 export default LikedPokemon
-

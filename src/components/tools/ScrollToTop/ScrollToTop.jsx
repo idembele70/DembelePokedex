@@ -28,9 +28,11 @@ function ScrollToTop({ showBellow }) {
   }
   useEffect(() => {
     isMount.current = true
-    window.addEventListener("scroll", onScroll)
+    if (isMount.current) window.addEventListener("scroll", onScroll)
     return () => {
       isMount.current = false
+      window.removeEventListener("scroll", () => { })
+      window.removeEventListener("click", () => { })
     }
   }, [])
   return (

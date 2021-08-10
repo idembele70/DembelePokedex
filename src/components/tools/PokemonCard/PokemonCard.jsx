@@ -7,7 +7,8 @@ import {
   Checkbox,
   FormControlLabel,
   IconButton,
-  Typography
+  Typography,
+  Grid
 } from "@material-ui/core"
 import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
@@ -15,7 +16,15 @@ import React, { useState } from "react"
 import useStyles from "./styles"
 import UseLike from "../../hooks/useLike"
 
-function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
+function PokemonCard({
+  id,
+  name,
+  firstType,
+  secondType,
+  image,
+  isLiked,
+  canHide
+}) {
   const COLORTYPE = {
     normal: "#CACACA",
     electric: "#FFE175",
@@ -46,63 +55,71 @@ function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
     e.target.onerror = null
     e.target.src = "img/assets/404-group.png"
   }
+  const [hide, setHide] = useState(canHide)
   const { ToggleLike } = UseLike()
   const handleLike = (e) => {
     setLike(e.target.checked)
+    if (e.target.baseURI.match("liked")) {
+      setHide(true)
+    }
     ToggleLike(id)
   }
   return (
-    <Card variant="outlined" className={classes.root}>
-      <CardMedia
-        className={classes.image}
-        image={image}
-        title="pokemon"
-        component="img"
-        onError={onerror}
-      />
-      <CardContent className={classes.CardContent}>
-        <Box display="flex" className={classes.title}>
-          <Typography variant="body2" className={classes.pokemonNumber}>
-            {id}
-          </Typography>
-          <Typography variant="body2" className={classes.pokemonName}>
-            {name}
-          </Typography>
-        </Box>
-        <Box className={classes.type}>
-          <Box
-            style={{ backgroundColor: firstTypeColor }}
-            className={classes.pokemonTypeOne}
-          >
-            {firstType && firstType.toUpperCase()}
-          </Box>
-          <Box
-            className={classes.pokemonTypeTwo}
-            style={{ backgroundColor: secondTypeColor }}
-          >
-            {secondType && secondType.toUpperCase()}
-          </Box>
-        </Box>
-      </CardContent>
-
-      <CardActions className={classes.likeContainer}>
-        <IconButton>
-          <FormControlLabel
-            className={classes.likeBtn}
-            control={
-              <Checkbox
-                checked={like}
-                onChange={handleLike}
-                color="primary"
-                icon={<ThumbUpOutlined fontSize="small" />}
-                checkedIcon={<ThumbUp fontSize="small" />}
-                name={`likeBtn${id}`}
-              />
-            }
+    !hide && (
+      <Grid item>
+        <Card variant="outlined" className={classes.root}>
+          <CardMedia
+            className={classes.image}
+            image={image}
+            title="pokemon"
+            component="img"
+            onError={onerror}
           />
-        </IconButton>
-      </CardActions>
-    </Card>
+          <CardContent className={classes.CardContent}>
+            <Box display="flex" className={classes.title}>
+              <Typography variant="body2" className={classes.pokemonNumber}>
+                {id}
+              </Typography>
+              <Typography variant="body2" className={classes.pokemonName}>
+                {name}
+              </Typography>
+            </Box>
+            <Box className={classes.type}>
+              <Box
+                style={{ backgroundColor: firstTypeColor }}
+                className={classes.pokemonTypeOne}
+              >
+                {firstType && firstType.toUpperCase()}
+              </Box>
+              <Box
+                className={classes.pokemonTypeTwo}
+                style={{ backgroundColor: secondTypeColor }}
+              >
+                {secondType && secondType.toUpperCase()}
+              </Box>
+            </Box>
+          </CardContent>
+
+          <CardActions className={classes.likeContainer}>
+            <IconButton>
+              <FormControlLabel
+                className={classes.likeBtn}
+                control={
+                  <Checkbox
+                    checked={like}
+                    onChange={handleLike}
+                    color="primary"
+                    icon={<ThumbUpOutlined fontSize="small" />}
+                    checkedIcon={<ThumbUp fontSize="small" />}
+                    name={`likeBtn${id}`}
+                  />
+                }
+              />
+            </IconButton>
+          </CardActions>
+        </Card>
+      </Grid>
+    )
   )
 }
 
@@ -112,10 +129,12 @@ PokemonCard.propTypes = {
   firstType: PropTypes.string,
   secondType: PropTypes.string,
   image: PropTypes.string.isRequired,
-  isLiked: PropTypes.bool.isRequired
+  isLiked: PropTypes.bool.isRequired,
+  canHide: PropTypes.bool
 }
 PokemonCard.defaultProps = {
   firstType: "",
-  secondType: ""
+  secondType: "",
+  canHide: false
 }
 export default PokemonCard

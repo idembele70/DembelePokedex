@@ -1,10 +1,32 @@
 import { Grid } from "@material-ui/core"
-import React from "react"
+import React, { useState, useEffect, useRef } from "react"
+import PropTypes from "prop-types"
 import useStyles from "./styles"
 import SearchBar from "./SearchBar"
 
-function SearchBars() {
+function SearchBars({ onFetchBy }) {
+  const isMounted = useRef(true)
   const classes = useStyles()
+  const [findBy, setFindByName] = useState({
+    findByName: "",
+    findByNumber: "",
+    findByType: ""
+  })
+  const handleFindBy = (e) => {
+    const { name, value } = e.target
+    setFindByName((oldState) => ({
+      ...oldState,
+      [name]: value
+    }))
+    onFetchBy(name, value)
+  }
+  useEffect(
+    () => () => {
+      window.removeEventListener("change", () => { })
+    },
+    []
+  )
+  const { findByName, findByNumber, findByType } = findBy
   return (
     <Grid
       container
@@ -13,14 +35,38 @@ function SearchBars() {
       justifyContent="center"
     >
       <Grid item>
-        <SearchBar placeholder="Search..." className={classes.searchByName} />
+        <SearchBar
+          name="findByName"
+          placeholder="Search..."
+          className={classes.searchByName}
+          value={findByName}
+          onChange={handleFindBy}
+        />
       </Grid>
       <Grid item>
-        <SearchBar placeholder="Number" className={classes.searchByNumber} />
-        <SearchBar placeholder="Type" className={classes.searchByType} />
+        <SearchBar
+          name="findByNumber"
+          placeholder="Number"
+          value={findByNumber}
+          onChange={handleFindBy}
+          className={classes.searchByNumber}
+        />
+        <SearchBar
+          name="findByType"
+          placeholder="Type"
+          value={findByType}
+          onChange={handleFindBy}
+          className={classes.searchByType}
+        />
       </Grid>
     </Grid>
   )
 }
-
+SearchBars.propTypes = {
+  onFetchBy: PropTypes.func
+}
+SearchBars.defaultProps = {
+  onFetchBy: null
+}
 export default SearchBars
+

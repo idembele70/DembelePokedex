@@ -11,6 +11,9 @@ export default makeStyles({
     position: "relative",
     borderRadius: 18
   },
+  hideRoot: {
+    display: "none"
+  },
   image: {
     height: 117,
     width: 126,

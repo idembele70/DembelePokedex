@@ -1,26 +1,19 @@
 import React from "react"
 import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
+  BrowserRouter as Router, Redirect, Route,
+  Switch
 } from "react-router-dom"
 import {
-  PokedexMainContent,
-  Navbar,
-  LikedPokemon,
-  SearchBars
+  LikedPokemon, Navbar, PokedexMainContent
 } from "./components"
 
 function App() {
   return (
     <Router>
       <Navbar />
-
       <Switch>
         <Route path="/liked" exact component={LikedPokemon} />
         <Route path="/pokedex" exact>
-          <SearchBars />
           <PokedexMainContent />
         </Route>
         <Route path="/">
