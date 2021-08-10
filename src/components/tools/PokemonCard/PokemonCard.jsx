@@ -13,7 +13,7 @@ import { ThumbUp, ThumbUpOutlined } from "@material-ui/icons"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 import useStyles from "./styles"
-import { ToggleLike } from "../../../services"
+import UseLike from "../../hooks/UseLike"
 
 function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
   const COLORTYPE = {
@@ -46,7 +46,7 @@ function PokemonCard({ id, name, firstType, secondType, image, isLiked }) {
     e.target.onerror = null
     e.target.src = "img/assets/404-group.png"
   }
-
+  const { ToggleLike } = UseLike()
   const handleLike = (e) => {
     setLike(e.target.checked)
     ToggleLike(id)

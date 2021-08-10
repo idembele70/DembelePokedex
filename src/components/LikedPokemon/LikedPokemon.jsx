@@ -1,5 +1,5 @@
-import { useMediaQuery, Grid, useTheme } from "@material-ui/core"
-import React, { useState } from "react"
+import { useMediaQuery, Grid, useTheme, } from "@material-ui/core"
+import React, { useState, useEffect } from "react"
 import { PokemonSkeleton } from "../tools"
 import useStyles from "./styles"
 import { GetAllLiked } from "../../services"
@@ -10,7 +10,9 @@ function LikedPokemon() {
   const theme = useTheme()
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
   const skeletonLength = isSmallDisplay ? 6 : 12
+  useEffect(() => {
 
+  }, [])
   return (
     <Grid
       container
@@ -29,3 +31,4 @@ function LikedPokemon() {
 }
 
 export default LikedPokemon
+
