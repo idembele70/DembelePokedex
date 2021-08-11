@@ -16,7 +16,7 @@ function SearchBars({ onFetchBy }) {
     const { name, value } = e.target
     setFindByName((oldState) => ({
       ...oldState,
-      [name]: value
+      [name]: value.toUpperCase()
     }))
     onFetchBy(name, value)
   }
@@ -41,6 +41,7 @@ function SearchBars({ onFetchBy }) {
           className={classes.searchByName}
           value={findByName}
           onChange={handleFindBy}
+          autoComplete="false"
         />
       </Grid>
       <Grid item>
@@ -50,6 +51,7 @@ function SearchBars({ onFetchBy }) {
           value={findByNumber}
           onChange={handleFindBy}
           className={classes.searchByNumber}
+          autoComplete="false"
         />
         <SearchBar
           name="findByType"
@@ -57,6 +59,7 @@ function SearchBars({ onFetchBy }) {
           value={findByType}
           onChange={handleFindBy}
           className={classes.searchByType}
+          autoComplete="false"
         />
       </Grid>
     </Grid>
@@ -69,4 +72,3 @@ SearchBars.defaultProps = {
   onFetchBy: null
 }
 export default SearchBars
-

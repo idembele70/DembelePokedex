@@ -13,11 +13,14 @@ function PokedexMainContent() {
   const classes = useStyles()
   const theme = useTheme()
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
-  const [PokemonDB, PokemonDBLength] = useFetch()
+  const [PokemonDB, PokemonDBLength] = useFetch(false)
   const [displayPokemons, setDisplayPokemons] = useState([])
+  const [displayPokemonsSearched, setDisplaySearch] = useState([])
+  const [loading, setLoading] = useState(true)
   const skeletonLength = isSmallDisplay ? 6 : 12
   const { GetLikeById } = useLike()
   const isMounted = useRef(true)
+  const isSearching = useRef(false)
   function handleFetch() {
     let maxLength = 0
     if (displayPokemons.length + skeletonLength < PokemonDB.length)
@@ -46,15 +49,51 @@ function PokedexMainContent() {
           : [...newData]
       )
     }
+    setLoading(false)
   }
 
-  function onFetchBy(name, value) {
-    if (name === "findByName") {
-      console.log("Name")
-    } else if (name === "findByNumber") {
-      console.log("Number")
-    } else if (name === "findByType") {
-      console.log("Type")
+  function findWhat(nameToFind, value) {
+    setLoading(true)
+    setDisplaySearch([])
+      ; (async () => {
+        await PokemonDB.forEach(({ id, name, type, img }) => {
+          if (
+            (nameToFind === "name" && name.match(value)) ||
+            (nameToFind === "type" &&
+              (type[0].match(value) || (type[1] && type[1].match(value)))) ||
+            (nameToFind === "number" && id.match(value))
+          ) {
+            setDisplaySearch((d) => [
+              ...d,
+              <PokemonCard
+                id={id}
+                firstType={type[0] || ""}
+                secondType={type[1] || ""}
+                name={name}
+                image={img}
+                key={id + Math.random()}
+                isLiked={GetLikeById(id)}
+              />
+            ])
+          }
+        })
+      })()
+    setLoading(false)
+  }
+
+  function onFetchBy(names, value) {
+    isSearching.current = true
+    if (names === "findByName" && value !== "") {
+      findWhat("name", value)
+    } else if (names === "findByNumber") {
+      isSearching.current = true
+      findWhat("number", value)
+    } else if (names === "findByType") {
+      isSearching.current = true
+      findWhat("type", value)
+    } else {
+      isSearching.current = false
+      handleFetch()
     }
   }
 
@@ -75,6 +114,7 @@ function PokedexMainContent() {
   ]
 
   useEffect(() => {
+    console.log("new render !")
     if (isMounted.current) handleFetch()
     return () => {
       isMounted.current = false
@@ -85,13 +125,8 @@ function PokedexMainContent() {
     <>
       <SearchBars onFetchBy={onFetchBy} />
       <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
-      <InfiniteScroll
-        threshold={800}
-        pageStart={0}
-        hasMore={displayPokemons.length < PokemonDBLength}
-        loadMore={() => isMounted.current && handleFetch()}
-        loader={displaySkeleton}
-      >
+
+      {isSearching.current ? (
         <Grid
           container
           spacing={4}
@@ -99,9 +134,27 @@ function PokedexMainContent() {
           justifyContent="center"
           key="rootGrid2"
         >
-          {displayPokemons}
+          {loading ? "searching..." : displayPokemonsSearched}
         </Grid>
-      </InfiniteScroll>
+      ) : (
+        <InfiniteScroll
+          threshold={800}
+          pageStart={0}
+          hasMore={displayPokemons.length < PokemonDBLength}
+          loadMore={() => isMounted.current && handleFetch()}
+          loader={displaySkeleton}
+        >
+          <Grid
+            container
+            spacing={4}
+            className={classes.root}
+            justifyContent="center"
+            key="rootGrid2"
+          >
+            {loading ? "searching...." : displayPokemons}
+          </Grid>
+        </InfiniteScroll>
+      )}
     </>
   )
 }

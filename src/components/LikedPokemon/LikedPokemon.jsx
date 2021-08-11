@@ -1,5 +1,5 @@
-import { Grid, useMediaQuery, useTheme } from "@material-ui/core"
-import React, { useEffect, useRef, useState, useCallback } from "react"
+import { Grid, useMediaQuery, useTheme, Box } from "@material-ui/core"
+import React, { useEffect, useRef, useState } from "react"
 import InfiniteScroll from "react-infinite-scroller"
 import useFetch from "../hooks/useFetch"
 import { PokemonSkeleton, PokemonCard } from "../tools"
@@ -24,6 +24,7 @@ function LikedPokemon() {
     else
       maxLength =
         displayPokemons.length + (PokemonDB.length - displayPokemons.length)
+
     if (PokemonDB && PokemonDB.length) {
       const newData = PokemonDB.slice(displayPokemons.length, maxLength)
       setDisplayPokemons((oldData) =>
@@ -57,7 +58,9 @@ function LikedPokemon() {
       {Array.from(
         {
           length:
-            skeletonLength > LikeDB.length ? LikeDB.length : skeletonLength
+            LikeDB && LikeDB.length < skeletonLength
+              ? LikeDB.length
+              : skeletonLength
         },
         () => (
           <Grid item key={`loading${Math.random()}`}>
@@ -77,27 +80,42 @@ function LikedPokemon() {
   }, [])
   return (
     <>
-      <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
-      <InfiniteScroll
-        threshold={800}
-        pageStart={0}
-        hasMore={displayPokemons.length < LikeDB.length}
-        loadMore={() => {
-          if (isSmallDisplay) handleFetch(true)
-          if (isMount.current) handleFetch(true)
-        }}
-        loader={displaySkeleton}
-      >
-        <Grid
-          container
-          spacing={4}
-          className={classes.root}
-          justifyContent="center"
-          key="rootGrid1"
+      {LikeDB && LikeDB.length ? (
+        <InfiniteScroll
+          threshold={800}
+          pageStart={0}
+          hasMore={displayPokemons && displayPokemons.length < LikeDB.length}
+          loadMore={() => {
+            if (isSmallDisplay) handleFetch(true)
+            if (isMount.current) handleFetch(true)
+          }}
+          loader={displaySkeleton}
         >
-          {displayPokemons}
-        </Grid>
-      </InfiniteScroll>
+          <ScrollToTop shoswBellow={isSmallDisplay ? 510 : 350} />
+          <Grid
+            container
+            spacing={4}
+            className={classes.root}
+            justifyContent="center"
+            key="rootGrid1"
+          >
+            {displayPokemons}
+          </Grid>
+        </InfiniteScroll>
+      ) : (
+        <Box
+          fontSize={isSmallDisplay ? "2rem" : "4rem"}
+          textAlign="center"
+          width="100vw"
+          height="100vh"
+          top="0%"
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+        >
+          It look like you don&apos;t like pokemons...
+        </Box>
+      )}
     </>
   )
 }

@@ -5,8 +5,8 @@ function useFetch(getLiked) {
   const [pokemonsList, setPokemonsList] = useState([])
   const { GetAllLiked } = useLike()
   useEffect(() => {
-    const controller = new AbortController();
-    (async () => {
+    const controller = new AbortController()
+    ;(async () => {
       const response = await fetch("data/pokemons.json", {
         signal: controller.signal
       })
@@ -14,7 +14,7 @@ function useFetch(getLiked) {
       if (getLiked) {
         const data = await json.filter(({ id }) => GetAllLiked().includes(id))
         setPokemonsList(data)
-      } else setPokemonsList(json)
+      } else await setPokemonsList(json)
     })()
     return () => {
       controller.abort()
