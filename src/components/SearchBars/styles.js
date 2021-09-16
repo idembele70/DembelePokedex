@@ -21,6 +21,9 @@ export default makeStyles({
       color: "#C4C4C4"
     }
   },
+  searchBarContainer : {
+    position :"relative"
+  },
   searchByName: {
     width: "82vw",
     maxWidth: "383px"
@@ -31,5 +34,6 @@ export default makeStyles({
   },
   searchByType: {
     width: 131
-  }
+  },
+
 })

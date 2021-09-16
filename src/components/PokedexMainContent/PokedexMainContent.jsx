@@ -21,6 +21,7 @@ function PokedexMainContent() {
   const { GetLikeById } = useLike()
   const isMounted = useRef(true)
   const isSearching = useRef(false)
+
   function handleFetch() {
     let maxLength = 0
     if (displayPokemons.length + skeletonLength < PokemonDB.length)
@@ -119,7 +120,7 @@ function PokedexMainContent() {
     return () => {
       isMounted.current = false
     }
-  }, [])
+  }, [isMounted.current])
 
   return (
     <>
