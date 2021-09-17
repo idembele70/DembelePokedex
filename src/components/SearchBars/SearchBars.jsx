@@ -1,26 +1,18 @@
 import { Grid } from "@material-ui/core"
 import { useAutocomplete } from "@material-ui/lab"
-import { createStyles, styled } from "@material-ui/styles"
+import { styled } from "@material-ui/styles"
 import PropTypes from "prop-types"
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import SearchBar from "./SearchBar"
 import useStyles from "./styles"
 
 function SearchBars({ onFetchBy }) {
   const classes = useStyles()
   const [pokemons, setPokemons] = useState([])
-  const [findBy, setFindByName] = useState({
-    findByName: "",
-    findByNumber: "",
-    findByType: ""
-  })
-  const handleFindBy = (e) => {
-    const { name, value } = e.target
-    setFindByName((oldState) => ({
-      ...oldState,
-      [name]: value.toUpperCase()
-    }))
-    onFetchBy(name, value)
+  const handleFindBy = (e, value) => {
+    const { id: targetId } = e.target
+    const name = targetId.split("-")[0]
+    onFetchBy(name, value ? value.name : "")
   }
   useEffect(() => {
     fetch("data/pokemons.json")
@@ -28,22 +20,23 @@ function SearchBars({ onFetchBy }) {
       .then(setPokemons)
     return () => window.removeEventListener("change", () => { })
   }, [])
-  const { findByName, findByNumber, findByType } = findBy
 
   // AUTOCOMPLETE !
-  const Listbox = styled("ul")(({ theme }) => ({
-    width: "90%",
+  const Listbox = styled("ul")({
+    width: "88%",
     margin: 0,
     padding: 0,
     zIndex: 1,
+    left: "50%",
+    transform: "translateX(-50%)",
     position: "absolute",
     listStyle: "none",
-    backgroundColor: "grey",
+    backgroundColor: "white",
     overflow: "auto",
     maxHeight: 200,
     border: "1px solid rgba(0,0,0,.25)",
     '& li[data-focus="true"]': {
-      backgroundColor: "#4a8df6",
+      backgroundColor: "rgba(0, 0, 0, 0.4)",
       color: "white",
       cursor: "pointer"
     },
@@ -51,19 +44,36 @@ function SearchBars({ onFetchBy }) {
       backgroundColor: "#2977f5",
       color: "white"
     }
-  }))
+  })
   const {
-    getRootProps,
-    getInputLabelProps,
-    getInputProps,
-    getListboxProps,
-    getOptionProps,
-    groupedOptions
+    getRootProps: getNameRootProps,
+    getInputProps: getNameInputProps,
+    getListboxProps: getNameListboxProps,
+    getOptionProps: getNameOptionProps,
+    groupedOptions: nameGroupedOptions
   } = useAutocomplete({
     id: "findByName",
-    options: pokemons,
-    getOptionLabel: (option) => option.name
+    options: pokemons.sort(
+      (a, b) => a.name.charCodeAt(0) - b.name.charCodeAt(0)
+    ),
+    getOptionLabel: (option) => option.name,
+    onChange: handleFindBy
   })
+  const types = [...pokemons.map((pokemon) => pokemon.type.join(","))].filter(
+    (type, idx, thi$) => thi$.indexOf(type) === idx
+  )
+  console.log(types)
+  const {
+    getRootProps: getTypeRootProps,
+    getInputProps: getTypeInputProps,
+    getListboxProps: getTypeListboxProps,
+    getOptionProps: getTypeOptionsProps,
+    groupedOptions: typeGroupedOptions
+  } = useAutocomplete({
+    id: "findByType",
+    options: types.sort()
+  })
+
   return (
     <Grid
       container
@@ -71,21 +81,22 @@ function SearchBars({ onFetchBy }) {
       spacing={2}
       justifyContent="center"
     >
-      <Grid item {...getRootProps()} className={classes.searchBarContainer}>
+      <Grid item {...getNameRootProps()} className={classes.searchBarContainer}>
         <SearchBar
           name="findByName"
           placeholder="Search..."
           className={classes.searchByName}
-          value={findByName}
-          onChange={handleFindBy}
-          autoComplete="false"
-          {...getInputProps()}
+          {...getNameInputProps()}
         />
-        {groupedOptions.length > 0 ? (
-          <Listbox {...getListboxProps()}>
-            {groupedOptions.map((option, index) => (
-              // eslint-disable-next-line react/jsx-props-no-spreading
-              <li {...getOptionProps({ option, index })}>{option.name}</li>
+        {nameGroupedOptions.length > 0 ? (
+          <Listbox {...getNameListboxProps()}>
+            {nameGroupedOptions.map((option, index) => (
+              <li
+                // eslint-disable-next-line react/jsx-props-no-spreading
+                {...getNameOptionProps({ option, index })}
+              >
+                {option.name}
+              </li>
             ))}
           </Listbox>
         ) : null}
@@ -94,16 +105,12 @@ function SearchBars({ onFetchBy }) {
         <SearchBar
           name="findByNumber"
           placeholder="Number"
-          value={findByNumber}
-          onChange={handleFindBy}
           className={classes.searchByNumber}
           autoComplete="false"
         />
         <SearchBar
           name="findByType"
           placeholder="Type"
-          value={findByType}
-          onChange={handleFindBy}
           className={classes.searchByType}
           autoComplete="false"
         />
