@@ -30,7 +30,6 @@ export default makeStyles({
   },
   searchByNumber: {
     width: 102,
-    margin: "0 18px 0 0"
   },
   searchByType: {
     width: 131

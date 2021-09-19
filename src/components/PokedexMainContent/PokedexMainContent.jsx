@@ -53,16 +53,40 @@ function PokedexMainContent() {
     setLoading(false)
   }
 
+  function handleFetchSearch() {
+    let maxLength = 0
+    if (
+      displayPokemons.length + skeletonLength <
+      displayPokemonsSearched.length
+    )
+      maxLength = displayPokemons.length + skeletonLength
+    else
+      maxLength =
+        displayPokemons.length +
+        (displayPokemonsSearched.length - displayPokemons.length)
+    if (displayPokemonsSearched && displayPokemonsSearched.length) {
+      const newData = displayPokemonsSearched.slice(
+        displayPokemons.length,
+        maxLength
+      )
+      setDisplayPokemons((oldData) =>
+        oldData ? [...oldData, ...newData] : [...newData]
+      )
+    }
+    setLoading(false)
+  }
+
   function findWhat(nameToFind, value) {
     setLoading(true)
     setDisplaySearch([])
+    setDisplayPokemons([])
       ; (async () => {
         await PokemonDB.forEach(({ id, name, type, img }) => {
           if (
-            (nameToFind === "name" && name.match(value)) ||
-            (nameToFind === "type" &&
-              (type[0].match(value) || (type[1] && type[1].match(value)))) ||
-            (nameToFind === "number" && id.match(value))
+            (nameToFind.match("name") && name.match(value)) ||
+            (nameToFind.match(new RegExp("type", "ig")) &&
+              type.includes(value)) ||
+            (nameToFind.match("number") && id.match(value))
           ) {
             setDisplaySearch((d) => [
               ...d,
@@ -76,12 +100,13 @@ function PokedexMainContent() {
                 isLiked={GetLikeById(id)}
               />
             ])
+          } else if (nameToFind && !value) {
+            setDisplaySearch([])
           }
         })
+        setLoading(false)
       })()
-    setLoading(false)
   }
-
   function onFetchBy(names, value) {
     isSearching.current = true
     if (names === "findByName" && value !== "") {
@@ -115,7 +140,7 @@ function PokedexMainContent() {
   ]
 
   useEffect(() => {
-    console.log("new render !")
+    isMounted.current = true
     if (isMounted.current) handleFetch()
     return () => {
       isMounted.current = false
@@ -126,8 +151,21 @@ function PokedexMainContent() {
     <>
       <SearchBars onFetchBy={onFetchBy} />
       <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
-
-      {isSearching.current ? (
+      <InfiniteScroll
+        threshold={800}
+        pageStart={0}
+        hasMore={
+          displayPokemonsSearched.length
+            ? displayPokemons.length < displayPokemonsSearched.length
+            : displayPokemons.length < PokemonDBLength
+        }
+        // eslint-disable-next-line consistent-return
+        loadMore={() => {
+          if (displayPokemonsSearched.length) handleFetchSearch()
+          else return isMounted.current && handleFetch()
+        }}
+        loader={displaySkeleton}
+      >
         <Grid
           container
           spacing={4}
@@ -135,27 +173,9 @@ function PokedexMainContent() {
           justifyContent="center"
           key="rootGrid2"
         >
-          {loading ? "searching..." : displayPokemonsSearched}
+          {loading ? "searching...." : displayPokemons}
         </Grid>
-      ) : (
-        <InfiniteScroll
-          threshold={800}
-          pageStart={0}
-          hasMore={displayPokemons.length < PokemonDBLength}
-          loadMore={() => isMounted.current && handleFetch()}
-          loader={displaySkeleton}
-        >
-          <Grid
-            container
-            spacing={4}
-            className={classes.root}
-            justifyContent="center"
-            key="rootGrid2"
-          >
-            {loading ? "searching...." : displayPokemons}
-          </Grid>
-        </InfiniteScroll>
-      )}
+      </InfiniteScroll>
     </>
   )
 }

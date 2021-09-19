@@ -1,4 +1,5 @@
-import { Grid } from "@material-ui/core"
+/* eslint-disable react/jsx-props-no-spreading */
+import { Box, Grid, Paper } from "@material-ui/core"
 import { useAutocomplete } from "@material-ui/lab"
 import { styled } from "@material-ui/styles"
 import PropTypes from "prop-types"
@@ -12,7 +13,21 @@ function SearchBars({ onFetchBy }) {
   const handleFindBy = (e, value) => {
     const { id: targetId } = e.target
     const name = targetId.split("-")[0]
-    onFetchBy(name, value ? value.name : "")
+    switch (name) {
+      case "findByName":
+        console.log(value)
+        onFetchBy(name, value ? value.name : undefined)
+        break
+      case "findByNumber":
+        onFetchBy(name, value ? value.id : undefined)
+        break
+      case "findByType":
+        onFetchBy(name, value)
+        break
+      default:
+        console.log("Name not found !")
+        break
+    }
   }
   useEffect(() => {
     fetch("data/pokemons.json")
@@ -59,21 +74,37 @@ function SearchBars({ onFetchBy }) {
     getOptionLabel: (option) => option.name,
     onChange: handleFindBy
   })
-  const types = [...pokemons.map((pokemon) => pokemon.type.join(","))].filter(
-    (type, idx, thi$) => thi$.indexOf(type) === idx
-  )
-  console.log(types)
   const {
-    getRootProps: getTypeRootProps,
+    getRootProps: getNumberRootProps,
+    getInputProps: getNumberInputProps,
+    getListboxProps: getNumberListboxProps,
+    getOptionProps: getNumberOptionProps,
+    groupedOptions: numberGroupedOptions
+  } = useAutocomplete({
+    id: "findByNumber",
+    options: pokemons.sort((a, b) => a.id - b.id),
+    getOptionLabel: (option) => option.id,
+    onChange: handleFindBy
+  })
+  const types = []
+  pokemons.forEach((pokemon) => {
+    if (pokemon.type.length > 1) {
+      if (types.includes(pokemon.type[0]) === false) types.push(pokemon.type[0])
+      if (!types.includes(pokemon.type[1])) types.push(pokemon.type[1])
+    }
+  })
+  const {
     getInputProps: getTypeInputProps,
     getListboxProps: getTypeListboxProps,
-    getOptionProps: getTypeOptionsProps,
+    getOptionProps: getTypeOptionProps,
+    getRootProps: getTypeRootProps,
     groupedOptions: typeGroupedOptions
   } = useAutocomplete({
     id: "findByType",
-    options: types.sort()
+    options: types,
+    getOptionsLabel: (option) => option,
+    onChange: handleFindBy
   })
-
   return (
     <Grid
       container
@@ -102,18 +133,50 @@ function SearchBars({ onFetchBy }) {
         ) : null}
       </Grid>
       <Grid item>
-        <SearchBar
-          name="findByNumber"
-          placeholder="Number"
-          className={classes.searchByNumber}
-          autoComplete="false"
-        />
-        <SearchBar
-          name="findByType"
-          placeholder="Type"
-          className={classes.searchByType}
-          autoComplete="false"
-        />
+        <Box
+          component="div"
+          display="inline-block"
+          mr={2}
+          maxWidth={102}
+          {...getNumberRootProps()}
+          className={classes.searchBarContainer}
+        >
+          <SearchBar
+            name="findByNumber"
+            placeholder="Number"
+            className={classes.searchByNumber}
+            {...getNumberInputProps()}
+          />
+          {numberGroupedOptions.length > 0 ? (
+            <Listbox {...getNumberListboxProps()}>
+              {numberGroupedOptions.map((option, index) => (
+                <li {...getNumberOptionProps({ option, index })}>
+                  {option.id}
+                </li>
+              ))}
+            </Listbox>
+          ) : null}
+        </Box>
+        <Box
+          component="div"
+          display="inline-block"
+          {...getTypeRootProps()}
+          className={classes.searchBarContainer}
+        >
+          <SearchBar
+            name="findByType"
+            placeholder="Type"
+            className={classes.searchByType}
+            {...getTypeInputProps()}
+          />
+          {typeGroupedOptions.length ? (
+            <Listbox {...getTypeListboxProps()}>
+              {typeGroupedOptions.map((option, index) => (
+                <li {...getTypeOptionProps({ option, index })}>{option}</li>
+              ))}
+            </Listbox>
+          ) : null}
+        </Box>
       </Grid>
     </Grid>
   )
@@ -122,6 +185,6 @@ SearchBars.propTypes = {
   onFetchBy: PropTypes.func
 }
 SearchBars.defaultProps = {
-  onFetchBy: null
+  onFetchBy: () => { }
 }
 export default SearchBars

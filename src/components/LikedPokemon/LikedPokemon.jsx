@@ -91,7 +91,7 @@ function LikedPokemon() {
           }}
           loader={displaySkeleton}
         >
-          <ScrollToTop shoswBellow={isSmallDisplay ? 510 : 350} />
+          <ScrollToTop showBellow={isSmallDisplay ? 510 : 350} />
           <Grid
             container
             spacing={4}
@@ -121,3 +121,4 @@ function LikedPokemon() {
 }
 
 export default LikedPokemon
+
