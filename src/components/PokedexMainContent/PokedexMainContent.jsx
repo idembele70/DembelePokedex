@@ -15,12 +15,10 @@ function PokedexMainContent() {
   const isSmallDisplay = useMediaQuery(theme.breakpoints.down("xs"))
   const [PokemonDB, PokemonDBLength] = useFetch(false)
   const [displayPokemons, setDisplayPokemons] = useState([])
-  const [displayPokemonsSearched, setDisplaySearch] = useState([])
-  const [loading, setLoading] = useState(true)
+  const [pokemonsSearched, setPokemonsSearched] = useState([])
   const skeletonLength = isSmallDisplay ? 6 : 12
   const { GetLikeById } = useLike()
   const isMounted = useRef(true)
-  const isSearching = useRef(false)
 
   function handleFetch() {
     let maxLength = 0
@@ -50,35 +48,26 @@ function PokedexMainContent() {
           : [...newData]
       )
     }
-    setLoading(false)
   }
 
   function handleFetchSearch() {
     let maxLength = 0
-    if (
-      displayPokemons.length + skeletonLength <
-      displayPokemonsSearched.length
-    )
+    if (displayPokemons.length + skeletonLength < pokemonsSearched.length)
       maxLength = displayPokemons.length + skeletonLength
     else
       maxLength =
         displayPokemons.length +
-        (displayPokemonsSearched.length - displayPokemons.length)
-    if (displayPokemonsSearched && displayPokemonsSearched.length) {
-      const newData = displayPokemonsSearched.slice(
-        displayPokemons.length,
-        maxLength
-      )
+        (pokemonsSearched.length - displayPokemons.length)
+    if (pokemonsSearched && pokemonsSearched.length) {
+      const newData = pokemonsSearched.slice(displayPokemons.length, maxLength)
       setDisplayPokemons((oldData) =>
         oldData ? [...oldData, ...newData] : [...newData]
       )
     }
-    setLoading(false)
   }
 
   function findWhat(nameToFind, value) {
-    setLoading(true)
-    setDisplaySearch([])
+    setPokemonsSearched([])
     setDisplayPokemons([])
       ; (async () => {
         await PokemonDB.forEach(({ id, name, type, img }) => {
@@ -88,7 +77,7 @@ function PokedexMainContent() {
               type.includes(value)) ||
             (nameToFind.match("number") && id.match(value))
           ) {
-            setDisplaySearch((d) => [
+            setPokemonsSearched((d) => [
               ...d,
               <PokemonCard
                 id={id}
@@ -101,24 +90,19 @@ function PokedexMainContent() {
               />
             ])
           } else if (nameToFind && !value) {
-            setDisplaySearch([])
+            setPokemonsSearched([])
           }
         })
-        setLoading(false)
       })()
   }
   function onFetchBy(names, value) {
-    isSearching.current = true
     if (names === "findByName" && value !== "") {
       findWhat("name", value)
     } else if (names === "findByNumber") {
-      isSearching.current = true
       findWhat("number", value)
     } else if (names === "findByType") {
-      isSearching.current = true
       findWhat("type", value)
     } else {
-      isSearching.current = false
       handleFetch()
     }
   }
@@ -140,13 +124,13 @@ function PokedexMainContent() {
   ]
 
   useEffect(() => {
-    isMounted.current = true
-    if (isMounted.current) handleFetch()
+    if (isMounted.current) {
+      handleFetch()
+    }
     return () => {
       isMounted.current = false
     }
-  }, [isMounted.current])
-
+  }, [])
   return (
     <>
       <SearchBars onFetchBy={onFetchBy} />
@@ -155,14 +139,13 @@ function PokedexMainContent() {
         threshold={800}
         pageStart={0}
         hasMore={
-          displayPokemonsSearched.length
-            ? displayPokemons.length < displayPokemonsSearched.length
+          pokemonsSearched.length
+            ? displayPokemons.length < pokemonsSearched.length
             : displayPokemons.length < PokemonDBLength
         }
-        // eslint-disable-next-line consistent-return
         loadMore={() => {
-          if (displayPokemonsSearched.length) handleFetchSearch()
-          else return isMounted.current && handleFetch()
+          if (pokemonsSearched.length) handleFetchSearch()
+          else if (isMounted.current) handleFetch()
         }}
         loader={displaySkeleton}
       >
@@ -171,9 +154,9 @@ function PokedexMainContent() {
           spacing={4}
           className={classes.root}
           justifyContent="center"
-          key="rootGrid2"
+          key="rootGrid1"
         >
-          {loading ? "searching...." : displayPokemons}
+          {displayPokemons}
         </Grid>
       </InfiniteScroll>
     </>
@@ -181,3 +164,4 @@ function PokedexMainContent() {
 }
 
 export default PokedexMainContent
+

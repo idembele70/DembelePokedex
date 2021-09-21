@@ -17,6 +17,7 @@ function LikedPokemon() {
   const LikeDB = GetAllLiked()
   const [displayPokemons, setDisplayPokemons] = useState([])
   const isMount = useRef(true)
+
   function handleFetch() {
     let maxLength = 0
     if (displayPokemons.length + skeletonLength < PokemonDB.length)
@@ -47,6 +48,7 @@ function LikedPokemon() {
       )
     }
   }
+
   const displaySkeleton = [
     <Grid
       container
@@ -70,6 +72,7 @@ function LikedPokemon() {
       )}
     </Grid>
   ]
+
   useEffect(() => {
     if (isMount.current) {
       handleFetch()
@@ -86,8 +89,7 @@ function LikedPokemon() {
           pageStart={0}
           hasMore={displayPokemons && displayPokemons.length < LikeDB.length}
           loadMore={() => {
-            if (isSmallDisplay) handleFetch(true)
-            if (isMount.current) handleFetch(true)
+            if (isMount.current) handleFetch()
           }}
           loader={displaySkeleton}
         >
@@ -121,4 +123,3 @@ function LikedPokemon() {
 }
 
 export default LikedPokemon
-

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import { Box, Grid, Paper } from "@material-ui/core"
+import { Box, Grid } from "@material-ui/core"
 import { useAutocomplete } from "@material-ui/lab"
 import { styled } from "@material-ui/styles"
 import PropTypes from "prop-types"
@@ -15,7 +15,6 @@ function SearchBars({ onFetchBy }) {
     const name = targetId.split("-")[0]
     switch (name) {
       case "findByName":
-        console.log(value)
         onFetchBy(name, value ? value.name : undefined)
         break
       case "findByNumber":
